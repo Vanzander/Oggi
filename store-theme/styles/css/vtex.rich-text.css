@@ -1,0 +1,221 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034e;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034e;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034e;
+}
+
+.container--title {
+  color: #333333;
+  font-size: 2.5rem;
+  font-weight: 700;
+  max-width: 60%;
+}
+.paragraph .paragraph--legal {
+  text-align: right;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+  .t-heading-2 {
+    color: #fff;
+  }
+}
+/** Home **/
+
+/** Fin Home **/
+/** Quienes somos **/
+.paragraph--about {
+  font-size: 1.1rem;
+}
+.headingLevel1--title {
+  font-size: 2.0rem;
+}
+/** End Quienes somos **/
+/** devoluciones **/
+.container--devoluciones  {
+  max-width: 960px;
+  margin: auto;
+}
+.container--devoluciones .paragraph--about  {
+  font-size: 1.1rem;
+}
+.heading--devoluciones {
+  font-size: 2.0rem;
+}
+.headingLevel3--devoluciones {
+  font-size: 1.6rem;
+}
+.headingLevel4--devoluciones {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+/** end devoluciones **/
+/** aviso de privacidad **/
+.list--about {
+  line-height: 30px;
+}
+.headingLevel4--about {
+  font-size: 1.4rem;
+}
+.list--privacidad-space {
+  line-height: 30px;
+}
+/** End aviso de privacidad **/
+/** Footer **/
+
+/** End footer **/
+
+/** Producto **/
+.heading--specification-badges-title {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.wrapper--calificacion-space {
+  font-size: 1.1rem;
+}
+.headingLevel3--relacionados-space-detalle {
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 375px) {
+  .headingLevel3--relacionados-space-detalle {
+    font-size: 1.1rem;
+  }
+}
+/** End producto **/
+
+/** Faq **/
+.container--pregunta-space {
+  border-bottom: solid 1px #dddddd;
+}
+/** End Faq **/
+/** 404 **/
+.link--noencontrado {
+    color:white;
+    background-color: black;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+.wrapper--title {
+  text-align: left;
+}
+.paragraph--title {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper--title {
+    text-align: center;
+    font-size: 1.0rem;
+  }
+  .paragraph--title {
+    text-align: center;
+    font-size: 1.0rem;
+  }
+}
+/** End 404 **/
+/**quickview**/
+.paragraph--quickview-trigger {
+  color:#fff;
+}
+/**end-quickview**/
+.container--text-hotsale {
+  display: block;
+  text-align: right;
+  float: right;
+}
+.paragraph--text-hotsale {
+  color: #fff;
+  font-size: 1.8rem;
+}
+@media all and (min-width: 980px) and (max-width: 1399px) {
+  .paragraph--text-hotsale {
+    font-size: 1.4rem;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 979px) {
+  .paragraph--text-hotsale {
+    font-size: 1.2rem !important;
+  }
+}
+@media all and (max-width: 767px) {
+  .container--text-hotsale {
+    text-align: center;
+    float: center;
+  }
+  .paragraph--text-hotsale {
+    font-size: 1.2rem;
+  }
+  }

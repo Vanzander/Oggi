@@ -1,0 +1,10 @@
+.stackItem--home-banner-cta-container {
+  width: 100%;
+  top: 80%;
+}
+@media screen and (max-width: 375px) { 
+  .stackItem--home-banner-cta-container {
+    top: 70%;
+  }
+  
+}

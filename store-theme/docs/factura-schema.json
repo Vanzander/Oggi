@@ -1,0 +1,124 @@
+{
+    "title": "Facturas",
+    "type": "object",
+    "properties": {
+        "idorden": {
+            "title": "Número de Orden",
+            "type": "string"
+        },
+        "razon_social": {
+            "title": "Nombre o Razón Social",
+            "type": "string"
+        },
+        "rfc": {
+            "title": "RFC",
+            "type": "string"
+        },
+        "usoCfdi": {
+            "title": "Uso CFDI",
+            "type": "string",
+            "enum": [
+                "G01 - Adquisición de mercancias",
+                "G02 - Devoluciones, descuentos o bonificaciones",
+                "G03 - Gastos en general",
+                "P01 - Por definir"
+            ]
+        },
+        "pago": {
+            "title": "Método de pago",
+            "type": "string",
+            "enum": [
+                "Tarjeta de crédito",
+                "Tarjeta de débito",
+                "Transferencia bancaria",
+                "Pago en efectivo"
+            ]
+        },
+        
+   
+        "calle": {
+            "title": "Calle",
+            "type": "string"
+        },
+        "num_ext": {
+            "title": "Número Exterior",
+            "type": "string"
+        },
+        "num_int": {
+            "title": "Número Interior",
+            "type": "string"
+        },
+        "colonia": {
+            "title": "Colonia",
+            "type": "string"
+        },
+        "ciudad": {
+            "title": "Ciudad",
+            "type": "string"
+        },
+        "estado": {
+            "title": "Seleccione un estado",
+            "type": "string",
+            "enum": [
+                "Aguascalientes",
+                "Baja California",
+                "Baja California Sur",
+                "Campeche",
+                "Chiapas",
+                "Chihuahua",
+                "Ciudad de México",
+                "Coahuila",
+                "Colima",
+                "Durango",
+                "Estado de México",
+                "Guanajuato",
+                "Guerrero",
+                "Hidalgo",
+                "Jalisco",
+                "Michoacán",
+                "Morelos",
+                "Nayarit",
+                "Nuevo León",
+                "Oaxaca",
+                "Puebla",
+                "Querétaro",
+                "Quintana Roo",
+                "San Luis Potosí",
+                "Sinaloa",
+                "Sonora",
+                "Tabasco",
+                "Tamaulipas",
+                "Tlaxcala",
+                "Veracruz",
+                "Yucatán",
+                "Zacatecas"
+            ]
+        },
+        "cp": {
+            "title": "Código Postal",
+            "type": "string"
+        },
+        "email": {
+            "title": "Email",
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "razon_social",
+        "rfc",
+        "usoCfdi",
+        "pago",
+        "tienda",
+        "calle",
+        "num_ext",
+        "colonia",
+        "ciudad",
+        "estado",
+        "cp",
+        "email"
+    ],
+    "v-security": {
+        "publicJsonSchema": true
+    }
+}

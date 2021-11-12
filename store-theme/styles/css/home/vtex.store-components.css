@@ -1,0 +1,100 @@
+.infoCardContainer {
+
+}
+.infoCardHeadline {
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.infoCardTextContainer {
+  height: 100%;
+  padding: 1rem 2rem;
+
+}
+@media screen and (max-width: 767px) {
+  .infoCardTextContainer {
+    height: auto;
+
+  }
+}
+.infoCardTextContainer--info-card-blog {
+  background-color: #33467f;
+  color: #fff;
+}
+
+.infoCardTextContainer--info-card-guiatallas {
+  background-color: #ff4c51;
+  color: #fff;
+}
+.infoCardImageContainer {
+  display: inline-flex;
+}
+.infoCardImage--info-card-guiatallas, .infoCardImage--info-card-blog {
+  z-index: 99;
+}
+
+@media all and (min-width: 980px) and (max-width: 1399px) {
+    .infoCardTextContainer--info-card-guiatallas,
+    .infoCardTextContainer--info-card-blog {
+        padding: 0;
+    }
+    .infoCardHeadline--info-card-guiatallas,
+    .infoCardHeadline--info-card-blog {
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .infoCardCallActionContainer--info-card-guiatallas,
+    .infoCardCallActionContainer--info-card-blog {
+        padding-left: 20px;
+    }
+    .infoCardCallActionContainer--info-card-guiatallas :global(.vtex-button),
+    .infoCardCallActionContainer--info-card-blog :global(.vtex-button) {
+        font-size: 12px !important;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 979px) {
+    .infoCardCallActionContainer--info-card-guiatallas,
+    .infoCardCallActionContainer--info-card-blog {
+        padding-left: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-right: 5px;
+    }
+    .infoCardTextContainer--info-card-guiatallas,
+    .infoCardTextContainer--info-card-blog {
+        padding: 0;
+    }
+    .infoCardHeadline--info-card-guiatallas,
+    .infoCardHeadline--info-card-blog {
+        padding-left: 20px;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .infoCardHeadline--info-card-blog,
+    .infoCardCallActionContainer--info-card-blog {
+        padding-left: 10px;
+    }
+    .infoCardCallActionContainer--info-card-guiatallas :global(.vtex-button),
+    .infoCardCallActionContainer--info-card-blog :global(.vtex-button) {
+        font-size: 12px !important;
+    }
+}
+
+/** Slider **/
+@media (max-width: 768px){
+  .imageElement--home-banner-image-desktop{
+    display: none;
+  }
+  .imageElement--home-banner-image-mobile{
+    display: block;
+  }
+}
+@media (min-width: 769px){
+  .imageElement--home-banner-image-desktop{
+    display: block;
+  }
+  .imageElement--home-banner-image-mobile{
+    display: none;
+  }
+}

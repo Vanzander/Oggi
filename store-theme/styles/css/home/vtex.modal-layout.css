@@ -1,0 +1,28 @@
+.actionsContentWrapper--quickview :global(.vtex-button) {
+    width: 230px;
+    margin-top: 0;
+}
+.flexColChild--cont-botones-space :global(.vtex-button):hover {
+    background-color: #ffffff;
+    border-color: #333333;
+    color:#333333;
+    position: relative;
+    text-align: center;
+    padding: 10px 10px 10px 0;
+    margin: 10px 0;
+    width: 220px;
+  }
+  .flexColChild--cont-botones-space :global(.vtex-button)::after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    top: 15px;
+    left: 163px;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 20px;
+    height: 20px;
+    color:#333333;
+    background-image: url('assets/images/_icon_mycart_gray.svg');
+  }

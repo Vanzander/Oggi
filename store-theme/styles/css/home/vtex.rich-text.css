@@ -1,0 +1,86 @@
+.container--home-banner-cta {
+  width: unset!important;
+}
+
+.paragraph--home-banner-cta {
+  border-radius: 500px;
+  background-color: #333;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  min-width: 150px;
+}
+.link--home-banner-cta {
+  padding: 8px 40px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-weight: 700;
+  margin: 2px 0;
+}
+.paragraph--home-banner-cta:hover {
+  background-color: #ffffff;
+  border: solid 1px #333333;
+}
+.link--home-banner-cta:hover {
+color:#333333;
+}
+.wrapper--grayBannerCromponentTitle {
+  width: 100%;
+}
+.container--grayBannerCromponentContent {
+  display: block;
+}
+.headingLevel2--grayBannerCromponentTitle {
+  color: #efefef;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.paragraph--grayBannerCromponentContent {
+  color: #efefef;
+  text-align: center;
+  padding: 0 0;
+  margin: 0 15px 30px 15px;
+  font-size: 16px;
+}
+
+@media all and (min-width: 768px) and (max-width: 979px) {
+    .headingLevel2--grayBannerCromponentTitle {
+        font-size: 16px;
+    }
+    .paragraph--grayBannerCromponentContent {
+        font-size: 14px;
+    }
+}
+
+.headingLevel2--shelfTitle {
+  color: #333;
+  text-align: left;
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.container--shelfTitle {
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph--home-banner-cta {
+    min-width: 250px;
+  }
+  .headingLevel2--grayBannerCromponentTitle {
+    font-size: 0.8rem !important;
+  }
+  .paragraph--grayBannerCromponentContent {
+   font-size: 0.8rem !important;
+   margin: 0 2px 20px 2px;
+  }
+  .headingLevel2--shelfTitle {
+    font-size: 1.2rem;
+  }
+}
