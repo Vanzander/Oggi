@@ -1,0 +1,40 @@
+{
+  "condition-layout.product#specification-badges-leggings-mujer": {
+    "props": {
+      "match": "any",
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": { "id": "39" }
+        }
+      ],
+      "Then": "product-specification-badges#leggings"
+    }
+  },
+  "product-specification-badges#leggings": {
+    "props": {
+      "orientation": "horizontal",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Largo",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Largo",
+          "displayValue": "SPECIFICATION_VALUE"
+        },
+        {
+          "specificationName": "Tela",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Tela",
+          "displayValue": "SPECIFICATION_VALUE"
+        }
+      ]
+    }
+  }
+}

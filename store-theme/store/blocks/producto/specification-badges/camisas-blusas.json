@@ -1,0 +1,71 @@
+{
+  "condition-layout.product#specification-badges-camisasblusas-hombre": {
+    "props": {
+      "match": "any",
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": { "id": "12" }
+        }
+      ],
+      "Then": "product-specification-badges#camisasblusas"
+    }
+  },
+  "condition-layout.product#specification-badges-camisasblusas-mujer": {
+    "props": {
+      "match": "any",
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": { "id": "13" }
+        }
+      ],
+      "Then": "product-specification-badges#camisasblusas"
+    }
+  },
+  "product-specification-badges#camisasblusas": {
+    "props": {
+      "orientation": "horizontal",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Manga",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Manga",
+          "displayValue": "SPECIFICATION_VALUE"
+        },
+        {
+          "specificationName": "Color",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Color",
+          "displayValue": "SPECIFICATION_VALUE"
+        },
+        {
+          "specificationName": "Cuello",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Cuello",
+          "displayValue": "SPECIFICATION_VALUE"
+        },
+        {
+          "specificationName": "Tela",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Tela",
+          "displayValue": "SPECIFICATION_VALUE"
+        }
+
+      ]
+    }
+  }
+}

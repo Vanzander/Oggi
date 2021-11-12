@@ -1,0 +1,31 @@
+{
+  "condition-layout.product#specification-badges-bermudas-hombre": {
+    "props": {
+      "match": "any",
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": { "id": "21" }
+        }
+      ],
+      "Then": "product-specification-badges#bermudas-hombre"
+    }
+  },
+  "product-specification-badges#bermudas-hombre": {
+    "props": {
+      "orientation": "horizontal",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Tela",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Tela",
+          "displayValue": "SPECIFICATION_VALUE"
+        }
+      ]
+    }
+  }
+}

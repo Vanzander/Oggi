@@ -1,0 +1,76 @@
+{
+  "condition-layout.product#specification-badges-jeggings-mujer": {
+    "props": {
+      "match": "any",
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": { "id": "41" }
+        }
+      ],
+      "Then": "product-specification-badges#jeggings"
+    }
+  },
+  "product-specification-badges#jeggings": {
+    "props": {
+      "orientation": "horizontal",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Línea",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Línea",
+          "displayValue": "SPECIFICATION_VALUE"
+        },
+        {
+          "specificationName": "Fit",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Fit",
+          "displayValue": "SPECIFICATION_VALUE"
+        },
+        {
+          "specificationName": "Cintura",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Cintura",
+          "displayValue": "SPECIFICATION_VALUE"
+        },
+        {
+          "specificationName": "Composición",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Composición",
+          "displayValue": "SPECIFICATION_VALUE"
+        },
+        {
+          "specificationName": "Largo",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Largo",
+          "displayValue": "SPECIFICATION_VALUE"
+        },
+        {
+          "specificationName": "Tela",
+          "blockClass": "especificaciones-space",
+          "displayValue": "SPECIFICATION_NAME"
+        },
+        {
+          "specificationName": "Tela",
+          "displayValue": "SPECIFICATION_VALUE"
+        }
+      ]
+    }
+  }
+}
