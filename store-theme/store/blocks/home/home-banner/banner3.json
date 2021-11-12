@@ -1,0 +1,58 @@
+{
+  "info-card#home-banner3": {
+    "props": {
+      "id": "home-banner3",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/images/home/slider-home/banner-kueskipay-desk.jpg",
+      "mobileImageUrl": "assets/images/home/slider-home/banner-kueskipay-mobile.jpg",
+      "callToActionText": "Cónoce kueskipay",
+      "callToActionUrl": "/kueskipay",
+      "blockClass": "home-banner-card",
+      "textAlignment": "center"
+    }
+  },
+  "stack-layout#home-banner3": {
+    "children": [
+      "image#home-banner3-desktop",
+      "image#home-banner3-mobile",
+      "flex-layout.row#home-banner3"
+    ]
+  },
+  "image#home-banner3-desktop": {
+    "props": {
+      "src": "assets/images/home/slider-home/banner-kueskipay-desk.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-desktop"
+    }
+  },
+  "image#home-banner3-mobile": {
+    "props": {
+      "src": "assets/images/home/slider-home/banner-kueskipay-mobile.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-mobile"
+    }
+  },
+  "flex-layout.row#home-banner3": {
+    "children": [ "rich-text#home-banner3-cta2"],
+    "props": {
+      "blockClass": "home-banner-cta-container"
+    }
+  },
+  "rich-text#home-banner3-cta1": {
+    "props": {
+      "text": "[Mujer](/jeans/mujer)",
+      "textAlignment": "CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  },
+  "rich-text#home-banner3-cta2": {
+    "props": {
+      "text": "[Más información](/kueskipay)",
+      "textAlignment": "CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  }
+}

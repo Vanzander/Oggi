@@ -1,0 +1,51 @@
+{
+  "info-card#home-banner6": {
+    "props": {
+      "id": "home-banner6",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/images/home/slider-home/covertops-desk.jpg",
+      "mobileImageUrl": "assets/images/home/slider-home/covertops-mobile.jpg",
+      "callToActionText": "Para Festejar a papá",
+      "callToActionUrl": "/promociones/covertops",
+      "blockClass": "home-banner-card",
+      "textAlignment": "center"
+    }
+  },
+  "stack-layout#home-banner6": {
+    "children": [
+      "image#home-banner6-desktop",
+      "image#home-banner6-mobile",
+      "flex-layout.row#home-banner6"
+    ]
+  },
+  "image#home-banner6-desktop": {
+    "props": {
+      "src": "assets/images/home/slider-home/covertops-desk.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-desktop"
+    }
+  },
+  "image#home-banner6-mobile": {
+    "props": {
+      "src": "assets/images/home/slider-home/covertops-mobile.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-mobile"
+    }
+  },
+  "flex-layout.row#home-banner6": {
+    "children": [ "rich-text#home-banner6-cta2"],
+    "props": {
+      "blockClass": "home-banner-cta-container"
+    }
+  },
+  "rich-text#home-banner6-cta2": {
+    "props": {
+      "text": "[Ver Más](/promociones/covertops)",
+      "textAlignment": "CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  }
+}

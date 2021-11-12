@@ -1,0 +1,34 @@
+{
+  "flex-layout.col#home-gray-banner-component-envio-gratis": {
+    "children": [
+      "image#home-gray-banner-envio-gratis",
+      "rich-text#home-gray-banner-envio-gratis-title",
+      "rich-text#home-gray-banner-envio-gratis-content"
+    ],
+    "props": {
+      "blockClass": "ventas-space"
+    }
+  },
+  "image#home-gray-banner-envio-gratis": {
+    "props": {
+      "src": "assets/images/home/iconos/envio-gratis.png",
+      "maxHeight": "80px",
+      "maxWidth": "80px",
+      "blockClass": "grayBannerCromponentImage"
+    }
+  },
+  "rich-text#home-gray-banner-envio-gratis-title": {
+    "props": {
+      "text": "## Envío Gratis",
+      "textAlign":"center",
+      "blockClass": "grayBannerCromponentTitle"
+    }
+  },
+  "rich-text#home-gray-banner-envio-gratis-content": {
+    "props": {
+      "text": "A partir de $699.00",
+      "textAlign":"center",
+      "blockClass": "grayBannerCromponentContent"
+    }
+  }
+}

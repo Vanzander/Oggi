@@ -1,0 +1,133 @@
+{
+  "store.home": {
+    "blocks": [
+      "slider-layout#home-banner",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#gray-banner-row",
+      "flex-layout.row#otros-enlaces"
+    ]
+  },
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 873,
+      "text": "prueba banner",
+      "images": [
+        {
+          "image": "assets/images/home/slider-home/fallwinter-desk_oct.jpg",
+          "mobileImage": "assets/images/home/slider-home/fallwinter-mobile_oct.jpg"
+        },
+        {
+          "image": "assets/images/home/slider-home/SP_Oct_desk_oct.jpg",
+          "mobileImage": "assets/images/home/slider-home/SS21_MOBILE.jpg"
+        },
+        {
+          "image": "assets/images/home/slider-home/ultimas-rebajas_desk_oct.jpg",
+          "mobileImage": "assets/images/home/slider-home/ultimas-rebajas_mobile_oct.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Productos Recomendados",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"],
+    "props": {
+      "preventHorizontalStretch": false,
+      "blockClass" : "col-relacionados-pdp"
+    }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "359",
+      "orderBy": "OrderByReleaseDateDESC",
+      "maxItems" : 8
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3000
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#gray-banner-row": {
+    "children": [
+      "flex-layout.col#home-gray-banner-component-envio-gratis",
+      "flex-layout.col#home-gray-banner-component-devolucion-facil",
+      "flex-layout.col#home-gray-banner-component-formas-de-pago",
+      "flex-layout.col#home-gray-banner-component-centros-de-ayuda"
+    ],
+    "props": {
+      "blockClass": "cintilloventas"
+    }
+  },
+  "flex-layout.row#otros-enlaces": {
+    "children": ["info-card#blog", "info-card#guia-de-tallas"],
+    "props": {
+      "blockClass": "otros-enlaces"
+    }
+  },
+  "info-card#blog": {
+    "props": {
+      "id": "info-card-blog",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/images/home/info-cards/banner-home-blog-oggi-desk.jpg",
+      "headline": "Ponte al día de lo que tenemos para tí",
+      "callToActionText": "VISITA NUESTRO BLOG",
+      "callToActionUrl": "https://life.oggi.mx/blog",
+      "CallToActionEnum": "link",
+      "callToActionLinkTarget":"_blank",
+      "blockClass": "info-card-blog",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#guia-de-tallas": {
+    "props": {
+      "id": "info-card-guiatallas",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/banner-home-guia-de-tallas-desk.jpg",
+      "headline": "Descubre que te va mejor de Oggi",
+      "callToActionText": "VER NUESTRAS REBAJAS",
+      "callToActionUrl": "/360?map=productClusterIds",
+      "CallToActionEnum": "link",
+      "blockClass": "info-card-guiatallas",
+      "textAlignment": "left"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "store.custom#rebajas":{
+	"blocks": [
+		"image#landing-rebajas",  
+    "image#landing-mobile-rebajas",  
+		"search-result-layout.customQuery#rebajas"
+	]
+},	
+  "image#landing-rebajas": { 
+    "props": { 
+      "minWidth": "100%",
+      "src": "assets/images/rebajas/REBAJAS_ABR_DESK.jpg"
+    }
+  },
+  "image#landing-mobile-rebajas": {
+    "props": {
+      "src": "assets/images/rebajas/REBAJAS_ABR_MOBILE.jpg",
+      "blockClass": "home-banner-image-mobile"
+    }
+  },
+  "search-result-layout.customQuery#rebajas": {
+    "props": {
+    "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 12,
+        "queryField": "360",
+        "mapField": "productClusterIds",
+        "skusFilters": "ALL_AVAILABLE"
+
+//fq=H:171&&O=OrderByReleaseDateDESC
+//"orderByField": "OrderByCollection",
+        //        "queryField": "jeans",
+//        "mapField": "category-2"
+     
+    }
+    },
+    "blocks": [
+    "search-result-layout.desktop#rebajas",
+    "search-result-layout.mobile#rebajas"
+    ]
+},
+"search-result-layout.desktop#rebajas": {
+  "children": [
+    "search-title.v2",
+    "flex-layout.row#top",
+    "search-fetch-previous",
+    "flex-layout.row#results",
+    "search-fetch-more"
+  ],
+  "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+  }
+ },
+ "flex-layout.row#top": { 
+  "children": [
+      "total-products.v2"
+  ]
+},
+"flex-layout.row#results": { 
+  "children": [ 
+      
+      "flex-layout.col#search"
+  ],
+  "props": {
+      "blockClass" : "cont-resultados-en-detalle"
+  }
+},
+"flex-layout.col#search": { 
+  "children": [
+    "search-content"
+  ]
+}, 
+
+
+"search-result-layout.mobile#rebajas": {
+  "children": [
+    "flex-layout.row#contentmobile"
+  ],
+  "props": {
+    "pagination": "show-more",
+    "mobileLayout": {
+      "mode1": "small",
+      "mode2": "normal"
+    }
+  }
+},
+
+"flex-layout.row#contentmobile": {
+  "children": ["search-content"],
+  "props": {
+    "preserveLayoutOnMobile": true,
+    "blockClass" : "cont-gral-car-mobile"
+  }
+}
+}

@@ -1,0 +1,65 @@
+{
+
+  "store.custom#hotsale-esperalo": {
+    "blocks": [
+      "flex-layout.row#hotsale-esperalo"
+    ]
+  },
+
+  "flex-layout.row#hotsale-esperalo": {
+    "children": [
+      "flex-layout.col#contador-hotsale"
+    ]
+  },
+
+  "flex-layout.col#contador-hotsale": {
+    "children": [
+      "flex-layout.row#contador-hotsale",
+      "image#hotsale-esperalo-desk",
+      "image#hotsale-esperalo-mobile",
+      "flex-layout.row#formulario-hotsale"
+    ],
+    "props": {
+      "blockclass": "contador-hotsale-space",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#formulario-hotsale": {
+    "children": [
+      "user_form"
+    ],
+    "props": {
+      "blockClass": "cont-contador-hotsale"
+    }
+  },
+  "flex-layout.row#contador-hotsale": {
+    "children": [
+      "rich-text#prehotsale",
+      "countdown"
+    ],
+    "props": {
+      "blockClass": "cont-reloj-hotsale"
+    }
+  },
+  "rich-text#prehotsale": {
+    "props": {
+      "text":"FALTA POCO PARA EL HOT SALE",
+      "blockClass": "text-hotsale"
+    }
+  },
+  "image#hotsale-esperalo-desk": {
+    "props": {
+      "src": "assets/images/landings/hotsale/hotsale-preventa-desk.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-desktop"
+    }
+  },
+  "image#hotsale-esperalo-mobile": {
+    "props": {
+      "src": "assets/images/landings/hotsale/hotsale-preventa-mobile.jpg",
+      "blockClass": "home-banner-image-mobile"
+    }
+  }
+}

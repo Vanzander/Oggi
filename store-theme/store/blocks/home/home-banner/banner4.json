@@ -1,0 +1,51 @@
+{
+  "info-card#home-banner4": {
+    "props": {
+      "id": "home-banner4",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/images/home/slider-home/mama_desk.jpg",
+      "mobileImageUrl": "assets/images/home/slider-home/mama_mobile.jpg",
+      "callToActionText": "Para Festejar a papá",
+      "callToActionUrl": "/promociones/dia_del_padre",
+      "blockClass": "home-banner-card",
+      "textAlignment": "center"
+    }
+  },
+  "stack-layout#home-banner4": {
+    "children": [
+      "image#home-banner4-desktop",
+      "image#home-banner4-mobile",
+      "flex-layout.row#home-banner4"
+    ]
+  },
+  "image#home-banner4-desktop": {
+    "props": {
+      "src": "assets/images/landings/pride/banner-home-pride-desktop.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-desktop"
+    }
+  },
+  "image#home-banner4-mobile": {
+    "props": {
+      "src": "assets/images/landings/pride/banner-home-pride-mobile.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-mobile"
+    }
+  },
+  "flex-layout.row#home-banner4": {
+    "children": [ "rich-text#home-banner4-cta2"],
+    "props": {
+      "blockClass": "home-banner-cta-container"
+    }
+  },
+  "rich-text#home-banner4-cta2": {
+    "props": {
+      "text": "[Ver Más](/promociones/pride)",
+      "textAlignment": "CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  }
+}

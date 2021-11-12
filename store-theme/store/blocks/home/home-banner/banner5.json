@@ -1,0 +1,46 @@
+{
+  "stack-layout#home-banner5": {
+    "children": [
+      "image#home-banner5-desktop",
+      "image#home-banner5-mobile",
+      "flex-layout.row#home-banner5"
+    ]
+  },
+  "image#home-banner5-desktop": {
+    "props": {
+      "src": "assets/images/landings/backtoschool/back-home-desk.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-desktop"
+    }
+  },
+  "image#home-banner5-mobile": {
+    "props": {
+      "src": "assets/images/landings/backtoschool/back-home-mobile.jpg",
+
+      "blockClass": "home-banner-image-mobile"
+    }
+  },
+  "flex-layout.row#home-banner5": {
+    "children": ["rich-text#home-banner5-cta1", "rich-text#home-banner5-cta2"],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "blockClass": "home-banner-cta-container"
+    }
+  },
+  "rich-text#home-banner5-cta1": {
+    "props": {
+      "text": "[Mujer](/promociones/back-to-school_m)",
+      "textAlignment": "CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  },
+  "rich-text#home-banner5-cta2": {
+    "props": {
+      "text": "[Hombre](/promociones/back-to-school_h)",
+      "textAlignment": "CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  }
+}

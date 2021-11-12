@@ -1,0 +1,46 @@
+{
+  "stack-layout#home-banner1": {
+    "children": [
+      "image#home-banner1-desktop",
+      "image#home-banner1-mobile",
+      "flex-layout.row#home-banner1"
+    ]
+  },
+  "image#home-banner1-desktop": {
+    "props": {
+      "src": "assets/images/landings/totebag/banner-home-totebag-desktop.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-desktop"
+    }
+  },
+  "image#home-banner1-mobile": {
+    "props": {
+      "src": "assets/images/landings/totebag/banner-home-totebag-mobile.jpg",
+
+      "blockClass": "home-banner-image-mobile"
+    }
+  },
+  "flex-layout.row#home-banner1": {
+    "children": ["rich-text#home-banner1-cta1", "rich-text#home-banner1-cta2"],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "blockClass": "home-banner-cta-container"
+    }
+  },
+  "rich-text#home-banner1-cta1": {
+    "props": {
+      "text": "[Mujer](/mujer/jeans)",
+      "textAlignment": "CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  },
+  "rich-text#home-banner1-cta2": {
+    "props": {
+      "text": "[Hombre](/hombre/jeans)",
+      "textAlignment": "CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  }
+}

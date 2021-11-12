@@ -1,0 +1,33 @@
+{
+  "flex-layout.col#home-gray-banner-component-devolucion-facil": {
+    "children": [
+      "image#home-gray-banner-devolucion-facil",
+      "rich-text#home-gray-banner-devolucion-facil-title",
+      "rich-text#home-gray-banner-devolucion-facil-content"    ],
+      "props": {
+        "blockClass": "ventas-space"
+      }
+  },
+  "image#home-gray-banner-devolucion-facil": {
+    "props": {
+      "src": "assets/images/home/iconos/devolucion-facil.png",
+      "maxHeight": "80px",
+      "maxWidth": "80px",
+      "blockClass": "grayBannerCromponentImage"
+    }
+  },
+  "rich-text#home-gray-banner-devolucion-facil-title": {
+    "props": {
+      "text": "## Devolución fácil",
+      "textAlign":"center",
+      "blockClass": "grayBannerCromponentTitle"
+    }
+  },
+  "rich-text#home-gray-banner-devolucion-facil-content": {
+    "props": {
+      "text": "Consulta nuestras políticas de cambios y devoluciones",
+      "textAlign":"center",
+      "blockClass": "grayBannerCromponentContent"
+    }
+  }
+}

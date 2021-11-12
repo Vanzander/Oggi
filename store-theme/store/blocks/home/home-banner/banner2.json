@@ -1,0 +1,58 @@
+{
+  "info-card#home-banner2": {
+    "props": {
+      "id": "home-banner2",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/images/home/slider-home/rebajas-verano-desk.jpg",
+      "mobileImageUrl": "assets/images/home/slider-home/rebajas-verano-mobile.jpg",
+      "callToActionText":"Ver Jeans",
+      "callToActionUrl": "/jeans",
+      "blockClass": "home-banner-card",
+      "textAlignment": "center"
+    }
+  },
+  "stack-layout#home-banner2": {
+    "children": [
+      "image#home-banner2-desktop",
+      "image#home-banner2-mobile",
+      "flex-layout.row#home-banner2"
+    ]
+  },
+  "image#home-banner2-desktop": {
+    "props": {
+      "src": "assets/images/home/slider-home/rebajas-verano-desk.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-desktop"
+    }
+  },
+  "image#home-banner2-mobile": {
+    "props": {
+      "src": "assets/images/home/slider-home/rebajas-verano-mobile.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-mobile"
+    }
+  },
+  "flex-layout.row#home-banner2": {
+    "children": ["rich-text#home-banner2-cta1", "rich-text#home-banner2-cta2"],
+    "props": {
+      "blockClass": "home-banner-cta-container"
+    }
+  },
+  "rich-text#home-banner2-cta1": {
+    "props": {
+      "text": "[Mujer](/371?map=productClusterIds)",
+      "textAlignment":"CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  },
+  "rich-text#home-banner2-cta2": {
+    "props": {
+      "text": "[Hombre](/370?map=productClusterIds)",
+      "textAlignment":"CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  }
+}

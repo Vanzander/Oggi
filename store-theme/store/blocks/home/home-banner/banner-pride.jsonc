@@ -1,0 +1,40 @@
+{
+  
+  "stack-layout#home-pride": {
+    "children": [
+      "image#home-pride-desktop",
+      "image#home-pride-mobile"
+    ]
+  },
+  "image#home-pride-desktop": {
+    "props": {
+      "src": "assets/images/home/slider-home/home-pride-desktop.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-desktop"
+    }
+  },
+  "image#home-pride-mobile": {
+    "props": {
+      "src": "assets/images/home/slider-home/home-pride-mobile.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "home-banner-image-mobile"
+    }
+  }
+  /*
+  "flex-layout.row#home-banner6": {
+    "children": [ "rich-text#home-banner6-cta2"],
+    "props": {
+      "blockClass": "home-banner-cta-container"
+    }
+  },
+  "rich-text#home-banner6-cta2": {
+    "props": {
+      "text": "[Ver Más](/promociones/covertops)",
+      "textAlignment": "CENTER",
+      "blockClass": "home-banner-cta"
+    }
+  }
+  */
+}

@@ -1,0 +1,22 @@
+{
+  "slider-layout#home-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "home-banner",
+      "autoplay": {
+        "timeout": 3000
+      }
+    },
+    "children": [
+      "stack-layout#home-banner2",
+      "stack-layout#home-banner1"
+    ]
+  }
+}
+

@@ -1,0 +1,34 @@
+{
+  "flex-layout.col#home-gray-banner-component-formas-de-pago": {
+    "children": [
+      "image#home-gray-banner-formas-de-pago",
+      "rich-text#home-gray-banner-formas-de-pago-title",
+      "rich-text#home-gray-banner-formas-de-pago-content"
+    ],
+    "props": {
+      "blockClass": "ventas-space"
+    }
+  },
+  "image#home-gray-banner-formas-de-pago": {
+    "props": {
+      "src": "assets/images/home/iconos/formas-de-pago.png",
+      "maxHeight": "80px",
+      "maxWidth": "80px",
+      "blockClass": "grayBannerCromponentImage"
+    }
+  },
+  "rich-text#home-gray-banner-formas-de-pago-title": {
+    "props": {
+      "text": "## Formas de pago",
+      "textAlign":"center",
+      "blockClass": "grayBannerCromponentTitle"
+    }
+  },
+  "rich-text#home-gray-banner-formas-de-pago-content": {
+    "props": {
+      "text": "Distintas opciones de pago con total seguridad",
+      "textAlign":"center",
+      "blockClass": "grayBannerCromponentContent"
+    }
+  }
+}

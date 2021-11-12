@@ -1,0 +1,33 @@
+{
+  "flex-layout.col#home-gray-banner-component-centros-de-ayuda": {
+    "children": [
+      "image#home-gray-banner-centros-de-ayuda",
+      "rich-text#home-gray-banner-centros-de-ayuda-title",
+      "rich-text#home-gray-banner-centros-de-ayuda-content"    ],
+      "props": {
+        "blockClass": "ventas-space"
+      }
+  },
+  "image#home-gray-banner-centros-de-ayuda": {
+    "props": {
+      "src": "assets/images/home/iconos/centros-de-ayuda.png",
+      "maxHeight": "80px",
+      "maxWidth": "80px",
+      "blockClass": "grayBannerCromponentImage"
+    }
+  },
+  "rich-text#home-gray-banner-centros-de-ayuda-title": {
+    "props": {
+      "text": "## Centros de Ayuda",
+      "textAlign":"center",
+      "blockClass": "grayBannerCromponentTitle"
+    }
+  },
+  "rich-text#home-gray-banner-centros-de-ayuda-content": {
+    "props": {
+      "text": "Llámanos al (55) 4170 0078",
+      "textAlign":"center",
+      "blockClass": "grayBannerCromponentContent"
+    }
+  }
+}
