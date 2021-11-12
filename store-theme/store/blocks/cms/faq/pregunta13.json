@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta13": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta13", "disclosure-content#pregunta13"]
+  },
+  "disclosure-trigger#pregunta13": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta13"]
+  },
+  "disclosure-content#pregunta13": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta13"]
+  },
+  "rich-text#pregunta13": {
+    "props": { 
+      "text": "¿Cómo puedo dar seguimiento a mi pedido?",
+      "blockClass": "pregunta-space" 
+    }
+  },
+  "rich-text#respuesta13": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Una vez recibido tu correo de confirmación de pedido, se te asignará una guía de seguimiento. Con ella podrás acceder al portal de la mensajería que te entregará el paquete y seguir en tiempo real el estatus de tu envío." }
+  }
+}

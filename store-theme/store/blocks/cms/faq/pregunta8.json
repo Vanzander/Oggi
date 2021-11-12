@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta8": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta8", "disclosure-content#pregunta8"]
+  },
+  "disclosure-trigger#pregunta8": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta8"]
+  },
+  "disclosure-content#pregunta8": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta8"]
+  },
+  "rich-text#pregunta8": {
+    "props": { 
+      "text": "¿Cuáles son las formas de pago que puedo utilizar?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta8": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Las formas de pago que se utilizan en Venta en Línea Oggi, es a través de Mercado Pago, PayPal y Pay U; líderes mundiales en el comercio electrónico, que facilita a usuarios y empresas realizar y recibir pagos en línea." }
+  }
+}

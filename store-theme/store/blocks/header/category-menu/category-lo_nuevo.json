@@ -1,0 +1,141 @@
+{
+  "menu-item#category-lo_nuevo": {
+    "props": {
+      "id": "menu-item-category-lo_nuevo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href":"/359?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Lo Nuevo",
+        "text": "Lo Nuevo"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-lo_nuevo"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-lo_nuevo": {
+    "props": {
+      "width": "100%",
+      "blockClass":"desktop-header-submenu"
+    },
+    "children": ["flex-layout.row#category-lo_nuevo"]
+  },
+  "flex-layout.row#category-lo_nuevo": {
+    "children": [
+      "flex-layout.col#category-lo_nuevo",
+      "flex-layout.col#category-lo-nuevo-image"
+    ]
+  },
+  "flex-layout.col#category-lo-nuevo-image": {
+    "children": [
+        "flex-layout.col#category-lo-nuevo-image2",
+        "flex-layout.col#category-lo-nuevo-image1"
+    ],
+    "props": {
+        "blockClass": "submenu_banner"
+    }
+},
+"flex-layout.col#category-lo-nuevo-image1": {
+  "children": [
+      "image#placeholderjh1-lonuevo"
+  ],
+  "props": {
+      "blockClass": "submenu_banner_image"
+  }
+},
+"flex-layout.col#category-lo-nuevo-image2": {
+  "children": [
+      "image#placeholderjh2-lonuevo"
+  ],
+  "props": {
+      "blockClass": "submenu_banner_image"
+  }
+},
+
+"image#placeholderjh1-lonuevo": {
+  "props": {
+      "src": "assets/images/menu-categoria/lonuevo_mujer.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image",
+      "link":{
+          "url":"https://www.oggi.mx/365?map=productClusterIds"
+      }
+  }
+},
+"image#placeholderjh2-lonuevo": {
+  "props": {
+      "src": "assets/images/menu-categoria/lonuevo_hombre.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image",
+      "link":{
+          "url":"https://www.oggi.mx/364?map=productClusterIds"
+      }
+  }
+},
+  "flex-layout.col#category-lo_nuevo": {
+    "children": [
+      "vtex.menu@2.x:menu#category-lo_nuevo"
+    ]
+  },
+  "flex-layout.col#category-lo_nuevo-image": {
+    "children": [
+      "image#placeholder"
+    ]
+  },
+  "image#placeholder": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image"
+    }
+  },
+  "vtex.menu@2.x:menu#category-lo_nuevo": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"desktop-header-submenu"
+    },
+    "children": [
+      "menu-item#category-lo_nuevo-hombre",
+      "menu-item#category-lo_nuevo-mujer"
+    ]
+  },
+  "menu-item#category-lo_nuevo-hombre": {
+    "props": {
+      "id": "menu-item-category-lo_nuevo-hombre",
+      "blockClass":"desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href":"/364?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Lo Nuevo Hombre",
+        "text": "Hombre"
+      }
+    }
+  },
+  "menu-item#category-lo_nuevo-mujer": {
+    "props": {
+      "id": "menu-item-category-lo_nuevo-mujer",
+      "blockClass":"desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href":"/365?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Lo Nuevo Mujer",
+        "text": "Mujer"
+      }
+    }
+  }
+}

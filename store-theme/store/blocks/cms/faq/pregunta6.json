@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta6": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta6", "disclosure-content#pregunta6"]
+  },
+  "disclosure-trigger#pregunta6": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta6"]
+  },
+  "disclosure-content#pregunta6": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta6"]
+  },
+  "rich-text#pregunta6": {
+    "props": { 
+      "text": "¿Cómo compro en línea?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta6": {
+    "props": { 
+      "blockClass": "respuesta-space",  
+      "text": "**R:** Comprar en línea es muy sencillo, rápido y sobre todo, seguro. Sólo selecciona el artículo que deseas adquirir, el sistema te irá guiando para completar tu compra. Al momento de indicarte el total de tu monto, el sistema te enviará a otra página protegida en donde proporcionarás tus datos personales, así como el número de tu tarjeta de crédito/debito de forma segura, además te ofrecemos la opción de pagar en efectivo a través de la cadena de tiendas de conveniencia más grande del país; una vez hecho esto, tu compra habrá finalizado.\n\nCabe mencionar que en todo momento tienes la oportunidad de deshacer la operación, borrando de tu selección los artículos que no desees adquirir, además tus datos están completamente a salvo debido a la confidencialidad de nuestro sistema de compras en línea." }
+  }
+}

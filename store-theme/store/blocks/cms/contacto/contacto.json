@@ -1,0 +1,49 @@
+{
+  "store.custom#contacto": {
+    "blocks": [
+      "flex-layout.row#contacto"
+    ]
+  },
+
+  "flex-layout.row#contacto": {
+    "children": [
+      "image#quienes-bg",
+      "flex-layout.col#text-quienes-somos"
+    ]
+  },
+
+  "flex-layout.col#text-quienes-somos": {
+    "children": [
+      "rich-text#title-quienes-somos",
+      "rich-text#quienes-somos"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-quienes-somos": {
+    "props": {
+      "text":
+      "# ¿Quiénes Somos?",
+      "blockClass": "title"
+    }
+  },
+
+  "image#quienes-bg": {
+    "props": {
+      "src": "assets/images/quienes-bg.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+
+  "rich-text#quienes-somos": {
+    "props": {
+      "text": "**Creemos** que todas las personas son únicas y por eso creamos prendas que, si bien son casi relativamente “iguales” desde que se inventaron, se vuelven únicas según quién las use y cómo las use. Además, sabemos que tienen el poder de crear una relación emocional especial con el usuario, como ninguna otra prenda es capaz de conseguir. Son una pieza clave en cualquier guardarropa y todos tienen su “preferido”.\n\nPor eso, enaltecemos el valor de lo clásico, y pensamos que un jeans clásico es capaz de transformar lo ordinario en extraordinario en cada persona que lo lleva.\n\nLo hacemos diseñando prendas que, además, sean cómodas, duraderas, con gran “fit”,muy buena calidad de telas, importadas y con tecnologías, que van incorporando sutilmente a lo clásico, ciertas tendencias de moda. Ofrecemos jeans asombrosos en sus características, a unos precios también asombrosos.\n\nTenemos todas las opciones imaginables dentro de la marca, siempre conservando la esencia de los clásicos más exitosos, con nuevos modelos cada año, que lanzamos en dos temporadas: Fall/Winter y Spring/Summer.\n\nQueremos que rompas con lo ordinario y que aproveches toda la oferta que tenemos para que crees looks extraordinarios y que definan tu estilo!",
+      "blockClass": "about"
+    }
+  }
+}

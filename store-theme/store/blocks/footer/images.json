@@ -1,0 +1,110 @@
+{
+  "image#spacebar": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/space.bar.png",
+      "maxHeight": "30px",
+      "blockClass": "spacebar",
+      "link":{
+        "url":"https://www.space.bar/",
+        "openNewTab":"true"
+      },
+      "marginTop": 10
+    }
+  },
+  "image#visa": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-visa.png",
+      "maxHeight": "30px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#mastercard": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-mastercard.png",
+      "maxHeight": "40px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#paypal": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-paypal.png",
+      "maxHeight": "40px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#oxxo": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-oxxo.png",
+      "maxHeight": "35px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#mercadopago": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/mercado-pago-01.png",
+      "maxHeight": "35px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#openpay": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-openpay.png",
+      "maxHeight": "35px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#kueski": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-kueski.png",
+      "maxHeight": "35px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#amipci": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-amipci.png",
+      "maxHeight": "40px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#norton": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-norton-security.png",
+      "maxHeight": "50px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#pago-seguro": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo_pago-seguro.png",
+      "maxHeight": "50px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#aimx": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-asociacion_sello.png",
+      "maxHeight": "50px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  },
+  "image#geodis": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/logo-geodis.png",
+      "maxHeight": "50px",
+      "maxWidth": "",
+      "blockClass": "footerImage"
+    }
+  }
+}

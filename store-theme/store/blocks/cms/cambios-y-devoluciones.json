@@ -1,0 +1,50 @@
+
+{
+
+  "store.custom#cambios-y-devoluciones": {
+    "blocks": [
+      "flex-layout.row#cambios-y-devoluciones"
+    ]
+  },
+
+  "flex-layout.row#cambios-y-devoluciones": {
+    "children": [
+      "flex-layout.col#text-devoluciones"
+    ]
+  },
+
+  "flex-layout.col#text-devoluciones": {
+    "children": [
+      "image#cambios-bg",
+      "rich-text#title-devoluciones",
+      "rich-text#par-devoluciones"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-devoluciones": {
+    "props": {
+      "text":"# Devoluciones/Cambios",
+      "blockClass": "devoluciones"
+    }
+  },
+
+  "image#cambios-bg": {
+    "props": {
+      "src": "assets/images/cms/devoluciones/banner-devoluciones.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+
+  "rich-text#par-devoluciones": {
+    "props": {
+      "text": "**CONTRATO DE ADHESI\u00D3N RESPECTO DE LA P\u00C1GINA DE INTERNET WWW.OGGI.MX QUE CELEBRAN POR UNA PARTE JUNIOR DE M\u00C9XICO, S.A. DE C.V., EN ADELANTE \u201COGGI\u201D Y, POR LA OTRA, EL USUARIO, SUJET\u00C1NDOSE AMBAS PARTES, A LO ESTABLECIDO EN EL TEXTO DEL PRESENTE CONTRATO**\r\n\r\n## Pol\u00EDticas de devoluciones y cambios.\r\n### 1.1. MEDIOS PARA SOLICITAR CAMBIOS F\u00CDSICOS O DEVOLUCIONES\r\n\r\nLos cambios o devoluciones se deber\u00E1n solicitar por escrito al correo ventaenlinea@oggi.mx, indicando ID de transacci\u00F3n, fecha y monto de la compra; as\u00ED mismo deber\u00E1 de especificar el motivo por el cual efect\u00FAa el cambio o devoluci\u00F3n del producto. Se emitir\u00E1 un n\u00FAmero de reporte para seguimiento.\r\n\r\nA continuaci\u00F3n el Usuario deber\u00E1 enviar la (s) prenda (s) por la empresa transportadora que \u00E9l elija con destino al almac\u00E9n f\u00EDsico de Venta en L\u00EDnea OGGI, dirigido a JUNIOR DE M\u00C9XICO, S.A. DE C.V., con domicilio en Av. Viaducto R\u00EDo de la Piedad No. 525-A, colonia Granjas M\u00E9xico, delegaci\u00F3n Iztacalco, c\u00F3digo postal 08400, Ciudad de M\u00E9xico, Distrito Federal, notificando por escrito a ventaenlinea@oggi.mx la fecha y gu\u00EDa que asign\u00F3 la transportadora al paquete con la devoluci\u00F3n, as\u00ED como el n\u00FAmero de reporte de devoluci\u00F3n generado en venta en l\u00EDnea OGGI.\r\n\r\n### 1.2. PLAZO DE NOTIFICACI\u00D3N PARA REALIZAR CAMBIOS\r\n\r\nEl Usuario cuenta con 3 d\u00EDas h\u00E1biles a partir de la fecha en la cual recibi\u00F3 la mercanc\u00EDa para notificar los CAMBIOS que desee realizar a la direcci\u00F3n de correo electr\u00F3nico ventaenlinea@oggi.mx; asimismo el Usuario cuenta con 10 d\u00EDas h\u00E1biles para realizar el tr\u00E1mite y embarque de la mercanc\u00EDa, a partir de la fecha que recibi\u00F3 la mercanc\u00EDa. Posterior a los periodos de tiempo descritos, no nos hacemos responsables de realizar cualquier cambio.\r\n\r\n### 1.3. PLAZO DE NOTIFICACI\u00D3N PARA REALIZAR DEVOLUCIONES POR DEFECTOS DE FABRICACI\u00D3N O DA\u00D1OS PRODUCIDOS POR EL ENV\u00CDO\r\n\r\nEl Usuario cuenta con 3 d\u00EDas h\u00E1biles a partir de la fecha en la cual recibi\u00F3 la mercanc\u00EDa para notificar las DEVOLUCIONES que desee realizar a la direcci\u00F3n de correo electr\u00F3nico ventaenlinea@oggi.mx; asimismo el Usuario cuenta con 10 d\u00EDas h\u00E1biles para realizar el tr\u00E1mite y embarque de la devoluci\u00F3n, a partir de la fecha que recibi\u00F3 la mercanc\u00EDa. Posterior a los periodos de tiempo descritos, no nos hacemos responsables de realizar cualquier devoluci\u00F3n.\r\n\r\n### 1.4. COSTOS DE LAS DEVOLUCIONES O CAMBIOS\r\n\r\nEl costo de env\u00EDo para devolver el (los) art\u00EDculo (s) correr\u00E1 a cargo del Usuario, utilizando la transportadora que elija.\r\n\r\n### 1.5. REQUISITOS PARA LAS DEVOLUCIONES O CAMBIOS\r\n\r\nLos requisitos que deber\u00E1 observar el Usuario para realizar un cambio o devoluci\u00F3n v\u00E1lidos, ser\u00E1n:\r\n\r\n#### 1.5.1. CAMBIOS:\r\n\r\na) Que el producto no haya sido de la talla, del modelo o del color que el Usuario adquiri\u00F3.\r\nb) Para que OGGI efect\u00FAe el cambio, el producto debe encontrarse en el mismo estado en que el Usuario lo recibi\u00F3, limpio y en buenas condiciones, sin estar sucio, manchado, maltratado, con da\u00F1os provocados, reparaciones o arreglos.\r\nc) OGGI no cobrar\u00E1 el reenv\u00EDo del producto que fue cambiado por surtido err\u00F3neo de talla, modelo o color, cuando dicho error sea atribuible a OGGI.\r\n\r\n#### 1.5.2. DEVOLUCIONES:\r\n\r\na) Que el producto tenga alg\u00FAn defecto de fabricaci\u00F3n, como ca\u00EDda de broches, botones y\/o remaches, cierre descompuesto, cambio de coloraci\u00F3n. IMPORTANTE. Previo a cada env\u00EDo, OGGI revisar\u00E1 el producto y lo comunicar\u00E1 al Usuario por medio de una etiqueta adherible de Control de Calidad dentro del paquete. * Cada una de las prendas cuenta con indicaciones de cuidado en la etiqueta interior.\r\nb) Que se haya da\u00F1ado durante el env\u00EDo. IMPORTANTE. El Usuario deber\u00E1 cerciorarse al momento de recibir su mercanc\u00EDa que el empaque no presente huellas de alteraci\u00F3n o roturas.\r\nc) Que el producto haya sido extraviado durante el env\u00EDo. En dicho caso el Usuario podr\u00E1 solicitar que se reponga el producto extraviado o el reembolso del dinero pagado.\r\n\r\n### 1.6. PROCEDIMIENTOS DE REEMBOLSO CON LOS DIFERENTES MEDIOS DE PAGO 1.6.1. REEMBOLSO V\u00CDA PAYU:\r\n\r\na) El Usuario deber\u00E1 enviar un correo electr\u00F3nico dirigido a ventaenlinea@oggi.mx solicitando la devoluci\u00F3n de su dinero, proporcionando MONTO, FECHA e ID DE TRANSACCI\u00D3N (N\u00FAmero de pedido).\r\nb) Venta en L\u00EDnea OGGI efectuar\u00E1 el tr\u00E1mite con Pay U.\r\nc) El tiempo de reembolso despu\u00E9s de la recibida la solicitud es de entre 20-25 d\u00EDas h\u00E1biles dependiendo del ciclo de la facturaci\u00F3n del banco con la que se efectu\u00F3 la compra.\r\nd) No hay cobro de comisi\u00F3n por devoluci\u00F3n.\r\n\r\n#### 1.6.2. REEMBOLSO V\u00CDA PAYPAL:\r\n\r\na) El Usuario deber\u00E1 solicitar la devoluci\u00F3n de su dinero directamente en la p\u00E1gina de PayPal.\r\nb) El Usuario deber\u00E1 presionar el bot\u00F3n REEMBOLSO.\r\nc) Si el Usuario pag\u00F3 con una tarjeta de cr\u00E9dito, el pago se reintegra a dicha tarjeta.\r\nd) El dep\u00F3sito del banco con el monto devuelto tarda de 1 a 2 semanas (d\u00EDas corridos) y hasta 30 d\u00EDas corridos como m\u00E1ximo (Dependiendo de la compa\u00F1\u00EDa que emiti\u00F3 tu tarjeta de cr\u00E9dito).\r\ne) El reintegro aparecer\u00E1 en el estado de cuenta de la tarjeta de cr\u00E9dito en la que se efectu\u00F3 el pago.\r\nf) Si el Usuario pag\u00F3 con el saldo de su cuenta PayPal, el dinero se reintegra a dicha cuenta.\r\ng) En dicho caso, el reembolso se efect\u00FAa el mismo d\u00EDa y el Usuario podr\u00E1 revisarlo en su historial de transacciones de PayPal como recibido.\r\nh) En los casos arriba mencionados no hay cobro de comisi\u00F3n por devoluci\u00F3n.\r\n\r\n#### 1.6.3. REEMBOLSO PAGO EN EFECTIVO:\r\n\r\na) El Usuario deber\u00E1 enviar un correo electr\u00F3nico dirigido a ventaenlinea@oggi.mx solicitando la devoluci\u00F3n de su dinero, proporcionando MONTO, FECHA e ID DE TRANSACCI\u00D3N (N\u00FAmero de pedido).\r\nb) El Usuario recibir\u00E1 un correo de respuesta con un formato para que ingrese la CLABE INTERBANCARIA de la cuenta que asigne para recibir su dinero devuelto.\r\nc) El reembolso se efectuar\u00E1 a trav\u00E9s de BANCOMER por transferencia Interbancaria.\r\nd) El dinero devuelto aparecer\u00E1 en la cuenta del Usuario entre 15 a 30 d\u00EDas h\u00E1biles despu\u00E9s de haber solicitado el reembolso.\r\n\r\n#### 1.6.4. VALE POR DEVOLUCI\u00D3N:\r\n\r\na) En caso de devoluci\u00F3n de un producto, el Usuario podr\u00E1 optar por solicitar un vale por el valor de la (s) prenda (s) devuelta (s) que podr\u00E1 utilizar en la siguiente compra que realice en Venta en L\u00EDnea OGGI, siempre que se respeten las presentes Pol\u00EDticas de Cambios y Devoluciones.\r\nb) En caso de que el Usuario haya pagado gastos de paqueter\u00EDa, este importe no ser\u00E1 reembolsado.\r\n\r\n### 1.7. SEGUIMIENTO DEL ESTADO DE UNA DEVOLUCI\u00D3N O CAMBIO\r\n\r\nUna vez comenzado el proceso de devoluci\u00F3n, el Usuario le dar\u00E1 seguimiento en ventaenlinea@oggi.mx y\/o en Servicio al Cliente al 01 55 4170 0078 con su n\u00FAmero de reporte.\r\n\r\n### 1.8. SERVICIO A CLIENTES\r\n\r\nEn caso de que el Usuario tenga alguna consulta, duda o problema en el proceso de devoluci\u00F3n de los productos adquiridos o con el reembolso solicitado, as\u00ED como cualquier consulta adicional, se podr\u00E1 comunicar con \u201CServicio al Cliente\u201D al 01 55 4170 0078.",
+      "blockClass": "devoluciones"
+    }
+  }
+}

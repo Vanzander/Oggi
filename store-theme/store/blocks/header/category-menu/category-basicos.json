@@ -1,0 +1,15 @@
+{
+  "menu-item#category-basicos": {
+    "props": {
+      "id": "menu-item-category-basicos",
+      "type": "category",
+      "categoryId": 35,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Básicos"
+      }
+    }
+  }
+}

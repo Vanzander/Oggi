@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#footer-4-desktop": {
+    "children": [
+        "rich-text#desarrollado-por",
+        "image#spacebar",
+        "rich-text#all-rights-reserved",
+        "rich-text#footer-whatsapp"
+    ],
+    "props": {
+      "blockClass": "credits",
+      "preventHorizontalStretch":true
+    }
+  }
+}

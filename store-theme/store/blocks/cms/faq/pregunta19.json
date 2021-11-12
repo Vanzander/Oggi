@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta19": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta19", "disclosure-content#pregunta19"]
+  },
+  "disclosure-trigger#pregunta19": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta19"]
+  },
+  "disclosure-content#pregunta19": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta19"]
+  },
+  "rich-text#pregunta19": {
+    "props": { 
+      "text": "¿Si vivo en otro país, puedo comprar en línea y recibir en el extranjero?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta19": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Por el momento no es posible enviar la mercancía fuera de la República Mexicana, sin embargo, esperamos en un futuro brindar este servicio." }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "menu-item#category-mujer": {
+    "props": {
+      "id": "menu-item-category-mujer",
+      "type": "category",
+      "categoryId": 2,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Mujer"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-mujer"]
+  },
+
+
+  "vtex.menu@2.x:submenu#category-mujer": {
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": ["flex-layout.row#category-mujer"]
+  },
+  "flex-layout.row#category-mujer": {
+    "children": [
+      "flex-layout.col#category-mujer",
+      "flex-layout.col#category-mujer-image"
+    ]
+  },
+
+ 
+
+  
+  "flex-layout.col#category-mujer": {
+    "children": [ "flex-layout.row#rowcategory-mujer" , "flex-layout.row#rowcategory-mujer2"]
+  },
+
+  "flex-layout.row#rowcategory-mujer": {
+    "children":["vtex.menu@2.x:menu#category-mujer-fit"],
+    "props":{"blockClass": "submenu-categoria-nav"}
+  },
+  "flex-layout.row#rowcategory-mujer2": {
+    "children":["vtex.menu@2.x:menu#category-mujer-categorias"],
+    "props":{"blockClass": "submenu-categoria-nav"}
+  },
+
+
+
+  "flex-layout.col#category-mujer-image": {
+    "children": ["flex-layout.col#category-mujer-image1","flex-layout.col#category-mujer-image2"],
+    "props":{"blockClass": "submenu_banner"}
+  },
+  "flex-layout.col#category-mujer-image1": {
+    "children": ["image#placeholderm1"],
+    "props":{"blockClass": "submenu_banner_image"}
+  },
+  "flex-layout.col#category-mujer-image2": {
+    "children": ["image#placeholderm2"],
+    "props":{"blockClass": "submenu_banner_image"}
+  },
+
+  "image#placeholderm1": {
+    "props": {
+      "src": "assets/images/menu-categoria/mujer-hombre.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image",
+      "link":{
+            "url":"https://www.oggi.mx/hombre"
+        }
+    }
+  },
+  "image#placeholderm2": {
+    "props": {
+      "src": "assets/images/menu-categoria/mujer_mujer.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image",
+      "link":{
+            "url":"https://www.oggi.mx/mujer"
+        }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#category-mujer-categorias": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+
+      "rich-text#categorias",
+      "menu-item#category-jeans-mujer2",
+      "menu-item#category-pantalones-mujer",
+      "menu-item#category-playerastops-mujer",
+      "menu-item#category-blusas-mujer",
+      "menu-item#category-chamarras-mujer",
+      "menu-item#category-nickers-mujer",
+      "menu-item#category-overol-mujer",
+      "menu-item#category-vestidosfaldas-mujer",
+     
+      "menu-item#category-legging-mujer",
+      "menu-item#category-jegging-mujer"
+    ]
+  },
+
+
+  "menu-item#category-accesorios-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#category-basicos-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 43,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Bodysuits"
+      }
+    }
+  },
+  "menu-item#category-bodysuit-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 43,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Bodysuits"
+      }
+    }
+  },
+  "menu-item#category-calzado-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 19,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Calzado"
+      }
+    }
+  },
+  "menu-item#category-blusas-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 13,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Blusas"
+      }
+    }
+  },
+  "menu-item#category-chamarras-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 16,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Chamarras"
+      }
+    }
+  },
+  "menu-item#category-jegging-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 41,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Jeggings"
+      }
+    }
+  },
+  "menu-item#category-jeans-mujer2": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Jeans"
+      }
+    }
+  },
+  "menu-item#category-legging-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 39,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Leggings"
+      }
+    }
+  },
+  "menu-item#category-nickers-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 23,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Nickers y Shorts"
+      }
+    }
+  },
+  "menu-item#category-overol-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 27,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Overol"
+      }
+    }
+  },
+  "menu-item#category-pantalones-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 10,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Pantalones"
+      }
+    }
+  },
+  "menu-item#category-playerastops-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 7,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Playeras y Tops"
+      }
+    }
+  },
+  "menu-item#category-underwear-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 30,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Underwear"
+      }
+    }
+  },
+  "menu-item#category-vestidosfaldas-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 25,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Vestidos y Faldas"
+      }
+    }
+  }
+}

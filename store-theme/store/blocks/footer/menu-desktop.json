@@ -1,0 +1,102 @@
+{
+  "vtex.menu@2.x:menu#footer-menu": {
+    "props": {
+      "blockClass":"secciones",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quienes-somos",
+      "rich-text#footer-CORPORATIVO",
+      "menu-item#preguntas-frecuentes",
+      "menu-item#cambios-y-devoluciones",
+      "rich-text#footer-video"
+    ]
+  },
+  "menu-item#quienes-somos": {
+    "props": {
+      "id": "menu-item-quienes-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "Quiénes Somos",
+        "text": "Quiénes Somos"
+      }
+    }
+  },
+  "menu-item#preguntas-frecuentes": {
+    "props": {
+      "id": "menu-item-preguntas-frecuentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": false,
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+  "menu-item#cambios-y-devoluciones": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cambios-y-devoluciones",
+        "noFollow": false,
+        "tagTitle": "Cambios y Devoluciones",
+        "text": "Cambios y Devoluciones"
+      }
+    }
+  },
+  "menu-item#rompeconloordinario": {
+    "props": {
+      "id": "menu-item-rompeconloordinario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.youtube.com/watch?v=AKBUvtKgJjw",
+        "noFollow": false,
+        "tagTitle": "#rompeconloordinario",
+        "text": "#rompeconloordinario"
+      }
+    }
+  },
+  "menu-item#tiendas-oggi": {
+    "props": {
+      "id": "menu-item-tiendasoggi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": false,
+        "tagTitle": "Tiendas OGGI",
+        "text": "Tiendas OGGI"
+      }
+    }
+  },
+  "rich-text#footer-video" : {
+    "props": {            
+        "text": "[#ROMPECONLOORDINARIO](https://www.youtube.com/watch?v=AKBUvtKgJjw&target=_blank)",
+        "blockClass" : "video_footer_link"
+    }
+},
+"rich-text#footer-CORPORATIVO" : {
+  "props": {            
+      "text": "[SOMOS OGGI](https://somos.oggi.mx/?&target=_blank)",
+      "blockClass" : "somos_footer_link"
+  }
+}
+}

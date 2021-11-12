@@ -1,0 +1,24 @@
+{
+  "disclosure-layout#pregunta4": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta4", "disclosure-content#pregunta4"]
+  },
+  "disclosure-trigger#pregunta4": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta4"]
+  },
+  "disclosure-content#pregunta4": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta4"]
+  },
+  "rich-text#pregunta4": {
+    "props": { "text": "¿Qué beneficios obtengo como miembro?" ,
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta4": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** - La comodidad de realizar compras por Internet.\n- La ventaja de recibir tus artículos en tu casa u oficina.\n- Obtendrías descuentos especiales.\n- Podrás enviarle regalos a familiares y amigos en toda la República a través de una Tarjeta de Regalo.\n- Serás el primero en estar informado de lanzamientos y promociones." }
+  }
+}

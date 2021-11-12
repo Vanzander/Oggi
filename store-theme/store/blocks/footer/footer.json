@@ -1,0 +1,47 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "newsletter#footer": {
+    "props": {
+      "placeholder": "Tu email...",
+      "submit": "Enviar",
+      "label": "Reciba noticias y ofertas especiales"
+    }
+  },
+  
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/OggiJeans"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/OGGIJEANS"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/oggijeans/"
+        },
+        {
+          "name": "Pinterest",
+          "url": "https://pin.it/11lGeb5"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://youtube.com/channel/UCNHMNUrVgpmSJ3DIOlfSprA"
+        },
+        {
+          "name": "Tiktok",
+          "url": "https://vm.tiktok.com/ZMdfQ14oL/"
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/user/02dy27bjr3e0t9cxreaw4ks5p?si=0ZpAh7XhRkawtIYuEhVB7w&dl_branch=1/"
+        }
+      ]
+    }
+  }
+}

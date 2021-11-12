@@ -1,0 +1,125 @@
+{
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "header-main",
+      "horizontalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer10",
+      "flex-layout.col#spacer30",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#header-items-desktop",
+      "flex-layout.col#spacer10"
+    ]
+  },
+  "flex-layout.col#spacer10": {
+    "props": {
+      "width": "10%"
+    }
+  },
+  "flex-layout.col#spacer30": {
+    "props": {
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#spacer50": {
+    "props": {
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "20%"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Oggi",
+      "href": "/",
+      "url": "assets/images/logo-oggi-web.png",
+      "width": "320px"
+    }
+  },
+
+  "flex-layout.col#header-items-desktop": {
+    "props": {
+      "width": "30%",
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    },
+    "children": ["flex-layout.row#header-items-desktop"]
+  },
+  "flex-layout.row#header-items-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+
+    "children": [
+      "flex-layout.col#spacer50",
+      "flex-layout.col#header-items-desktop-1"
+    ]
+  },
+  "flex-layout.col#header-items-desktop-1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#header-items-desktop-1",
+      "flex-layout.row#header-items-desktop-2"
+    ]
+  },
+  "flex-layout.row#header-items-desktop-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "login-general",
+      "verticalAlign": "middle"
+    },
+    "children": [
+        "login#desktop",
+        "minicart.v2"
+    ]
+  },
+  "flex-layout.row#header-items-desktop-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass" : "cont_blog_puntos_header"
+    },
+    "children": [
+        "rich-text#header-blog",
+        "rich-text#header-store-locator"
+    ]
+  },
+    "rich-text#header-blog": {
+        "props": {
+            "text": "[BLOG](https://life.oggi.mx/blog?target=_blank)",
+            "blockClass": "blog_header_link"
+        }
+    },
+    "rich-text#header-store-locator": {
+        "props": {
+            "text": "[PUNTO OGGI](/stores)",
+            "blockClass": "puntos_oggi_header_link"
+        }
+    },
+  "login#desktop": {
+    "props": {
+      "emailAndPasswordTitle": "Iniciar Sesión",
+      "accessCodeTitle": "Entrar con código de acceso",
+      "emailPraceholder": "email",
+      "passwordPlaceholder": "contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile":true,
+      "iconLabel":"Mi Cuenta",
+      "blockClass": "login-space",
+      "hideIconLabel":false
+    }
+  }
+}

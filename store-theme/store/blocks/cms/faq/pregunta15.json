@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta15": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta15", "disclosure-content#pregunta15"]
+  },
+  "disclosure-trigger#pregunta15": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta15"]
+  },
+  "disclosure-content#pregunta15": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta15"]
+  },
+  "rich-text#pregunta15": {
+    "props": { 
+      "text": "¿Qué pasa si no hay nadie que reciba mi pedido en el domicilio acordado?",
+      "blockClass": "pregunta-space" 
+    }
+  },
+  "rich-text#respuesta15": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Siempre es recomendable anotar una dirección donde pueda estar alguien para recibir tu pedido, en horario abierto de 09:00 a 18:00 de lunes a viernes; en caso de no encontrar a alguien que reciba el paquete, Estafeta realizara 2 visitas más en los días subsecuentes en diferentes horario (dejando un aviso por escrito a manera de seguimiento). De no encontrar a alguien en las 3 visitas, Estafeta envía tu paquete a sus oficinas en espera de coordinar la entrega en sucursal (la que tu elijas) dentro de los próximos 15 días hábiles." }
+  }
+}

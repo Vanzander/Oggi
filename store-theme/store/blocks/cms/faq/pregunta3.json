@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta3": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta3", "disclosure-content#pregunta3"]
+  },
+  "disclosure-trigger#pregunta3": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta3"]
+  },
+  "disclosure-content#pregunta3": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta3"]
+  },
+  "rich-text#pregunta3": {
+    "props": { 
+      "text": "¿Qué datos requiero para darme de alta en la plataforma de Oggi.mx?" ,
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta3": {
+    "props": {
+      "blockClass": "respuesta-space",
+      "text": "**R:** Los datos que se solicitan para el registro en Oggi.mx son: Nombre / Apellido / Dirección / Estado / Ciudad / Teléfono / Correo electrónico / Fecha de nacimiento / Contraseña. Te recordamos que tu información está debidamente resguardada y en ningún caso será utilizada para otros fines que no sean los establecidos en el Aviso de Privacidad (Ver en apartado)." }
+  }
+}

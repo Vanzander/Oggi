@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "notification.bar#home"
+    ],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "¡ENVÍOS GRATIS EN COMPRAS DE MAS DE $699.00 MXN! | ENTREGA DE 3 A 6 DÍAS HÁBILES"
+    }
+  }
+}

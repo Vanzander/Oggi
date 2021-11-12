@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta5": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta5", "disclosure-content#pregunta5"]
+  },
+  "disclosure-trigger#pregunta5": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta5"]
+  },
+  "disclosure-content#pregunta5": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta5"]
+  },
+  "rich-text#pregunta5": {
+    "props": { 
+      "text": "¿Cómo funciona la Tarjeta de Regalo?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta5": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Puedes comprar una tarjeta de regalo con el saldo que tu elijas desde $ 200.00 y hasta $ 1,000.00, la cual tendrá una vigencia de un año (a partir de la fecha que la adquieres) y la podrán utilizar en toda la tienda de Venta en Linea Oggi." }
+  }
+}

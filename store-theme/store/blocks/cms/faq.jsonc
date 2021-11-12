@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#faq": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": ["flex-layout.col#faq"]
+  },
+
+  "flex-layout.col#faq": {
+    "children": ["rich-text#faq", "disclosure-layout-group#group"]
+  },
+  "rich-text#faq": {
+    "props": {
+      "text": "## Preguntas Frecuentes"
+    }
+  },
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#pregunta1",
+      "disclosure-layout#pregunta2",
+      "disclosure-layout#pregunta3",
+      "disclosure-layout#pregunta4",
+      "disclosure-layout#pregunta6",
+      "disclosure-layout#pregunta7",
+      "disclosure-layout#pregunta8",
+      "disclosure-layout#pregunta9",
+      "disclosure-layout#pregunta10",
+      "disclosure-layout#pregunta11",
+      "disclosure-layout#pregunta12",
+      "disclosure-layout#pregunta13",
+      "disclosure-layout#pregunta14",
+      "disclosure-layout#pregunta15",
+      "disclosure-layout#pregunta16",
+      "disclosure-layout#pregunta17",
+      "disclosure-layout#pregunta18",
+      "disclosure-layout#pregunta19",
+      "disclosure-layout#pregunta20",
+      "disclosure-layout#pregunta21"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "sticky-layout#1-mobile",
+      "flex-layout.row#4-desktop"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "notification.bar#home-mobile"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "noti-general-space"
+    }
+  },
+  "notification.bar#home-mobile": {
+    "props": {
+      "content": "¡ENVÍOS GRATIS EN COMPRAS DE MAS DE $699.00 MXN! | ENTREGA DE 3 A 6 DÍAS HÁBILES",
+      "blockClass": "noti-space"
+    }
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#2-mobile"
+    ]
+  },
+
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["flex-layout.row#drawer-mobile"]
+  },
+  "flex-layout.row#drawer-mobile": {
+    "children": [
+      "flex-layout.col#drawer-1-mobile",
+      "flex-layout.col#drawer-2-mobile"
+    ],
+    "props": {
+      "blockClass": "header-mobile-drawer",
+      "preventHorizontalStretch": false,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-1-mobile": {
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": "header-mobile-drawer-search",
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#drawer-2-mobile": {
+    "children": ["menu#drawer"],
+    "props": {
+      "blockClass": "header-mobile-drawer-menu",
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": false,
+      "fullWidth": true
+    }
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-jeans",
+      "menu-item#category-mujer",
+      "menu-item#category-hombre",
+      "menu-item#category-lo_nuevo",
+      "menu-item#category-colecciones",
+      "rich-text#header-blog",
+      "rich-text#header-store-locator",
+      "flex-layout.row#mobile-header-social"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass" : "link_blog"
+    }
+  },
+  "flex-layout.row#mobile-header-social": {
+    "children": ["flex-layout.col#mobile-header-social"],
+    "props": {
+      "blockClass": "mobile-header-social"
+    }
+  },
+  "flex-layout.col#mobile-header-social": {
+    "children": ["rich-text#siguenos-mobile", "social-networks"],
+    "props": {
+      "blockClass": "mobile-header-social"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/logo-oggi-mobile.png",
+      "width": "200"
+    }
+  },
+  "rich-text#siguenos-mobile": {
+    "props": {
+      "text": "Síguenos",
+      "font": "t-heading-5",
+      "blockClass": "siguenos-mobile"
+    }
+  }
+}

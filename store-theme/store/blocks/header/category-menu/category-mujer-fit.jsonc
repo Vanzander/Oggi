@@ -1,0 +1,198 @@
+{
+  "menu-item#category-mujer-fit": {
+    "props": {
+      "id": "menu-item-category-mujer-fit",
+      "type": "category",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Fit"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-mujer-fit"]
+  },
+  "vtex.menu@2.x:submenu#category-mujer-fit": {
+    "props": {
+    //  "width": "100%",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": ["flex-layout.row#category-mujer-fit"]
+  },
+  "flex-layout.row#category-mujer-fit": {
+    "children": [
+      "vtex.menu@2.x:menu#category-mujer-fit"
+    ]
+  },
+
+  
+  "vtex.menu@2.x:menu#category-mujer-fit": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+      "rich-text#fit",
+      "menu-item#category-mujer-fit-straight-cintura-alta",
+      "menu-item#category-mujer-fit-skinny-cintura-media",
+      "menu-item#category-mujer-fit-super-skinny-cintura-alta",
+//      "menu-item#category-mujer-fit-skinny-cintura-alta",
+//      "menu-item#category-mujer-fit-super-skinny-cintura-super-alta",
+      "menu-item#category-mujer-fit-noot-cut-cintura-alta",
+//      "menu-item#category-mujer-fit-super-slim-cintura-media",
+      "menu-item#category-mujer-fit-slim-cintura-media"
+//      "menu-item#category-mujer-fit-relaxed-cintura-media",
+//      "menu-item#category-mujer-fit-super-skinny-cintura-baja"
+//      "menu-item#category-mujer-fit-slim-cintura-alta"
+
+    ]
+  },
+   
+
+  "menu-item#category-mujer-fit-straight-cintura-alta": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/mujer/jeans/straight?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit",
+        "type": "internal",
+        "text": "Straight"
+      }
+    }
+  },
+  "menu-item#category-mujer-fit-skinny-cintura-media": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Skinny",
+        "href": "/mujer/jeans/skinny?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit"
+      }
+    }
+  },
+  "menu-item#category-mujer-fit-super-skinny-cintura-alta": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Súper Skinny",
+        "href": "/mujer/jeans/super-skinny?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit"
+      }
+    }
+  },
+//  "menu-item#category-mujer-fit-skinny-cintura-alta": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Original",
+//        "href": "/mujer/jeans/original?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit"
+//      }
+//    }
+//  },
+//   "menu-item#category-mujer-fit-super-skinny-cintura-super-alta": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Boy Friend",
+//        "href": "/mujer/jeans/boy-friend?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit"
+//      }
+//    }
+//  },
+  "menu-item#category-mujer-fit-noot-cut-cintura-alta": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Boot Cut",
+        "href": "/mujer/jeans/boot-cut?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit"
+      }
+    }
+  },
+//  "menu-item#category-mujer-fit-super-slim-cintura-media": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Súper Slim",
+//        "href": "/mujer/jeans/super-slim?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit"
+//      }
+//    }
+//  },
+  "menu-item#category-mujer-fit-slim-cintura-media": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Slim",
+        "href": "/mujer/jeans/slim?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit"
+      }
+    }
+  }//,
+//  "menu-item#category-mujer-fit-relaxed-cintura-media": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Relaxed",
+//        "href": "/mujer/jeans/relaxed?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit"
+//      }
+//    }
+//  },
+//  "menu-item#category-mujer-fit-super-skinny-cintura-baja": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Últra Skinny",
+//        "href": "/mujer/jeans/ultra-skinny?initialMap=c,c&initialQuery=mujer/jeans&map=category-1,category-2,fit"
+//      }
+//    }
+//  }
+//,
+//  "menu-item#category-mujer-fit-slim-cintura-alta": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Slim cintura alta",
+//        "href": "/149?map=productClusterIds"
+//      }
+//    }
+//  }
+}
+

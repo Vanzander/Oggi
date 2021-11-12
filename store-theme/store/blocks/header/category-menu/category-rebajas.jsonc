@@ -1,0 +1,137 @@
+{
+  "menu-item#category-rebajas-p": {
+    "props": {
+      "id": "menu-item-category-rebajas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "cont_rebajas",
+      "itemProps": {
+        "type":"internal",
+        "href": "/360?map=productClusterIds",
+        "text": "Rebajas"
+      }
+    },
+    "blocks": [
+        "vtex.menu@2.x:submenu#category-rebajas"
+    ]
+  },
+
+
+  "vtex.menu@2.x:submenu#category-rebajas": {
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+      "flex-layout.row#category-rebajas",
+      "flex-layout.col#category-rebajas-image"
+    ]
+  },
+  "flex-layout.col#category-rebajas-image": {
+    "children": [
+        "flex-layout.col#category-rebajas-image2",
+        "flex-layout.col#category-rebajas-image1"
+    ],
+    "props": {
+        "blockClass": "submenu_banner"
+    }
+},
+"flex-layout.col#category-rebajas-image1": {
+  "children": [
+      "image#placeholderjhr1"
+  ],
+  "props": {
+      "blockClass": "submenu_banner_image"
+  }
+},
+"flex-layout.col#category-rebajas-image2": {
+  "children": [
+      "image#placeholderjhr2"
+  ],
+  "props": {
+      "blockClass": "submenu_banner_image"
+  }
+},
+"image#placeholderjhr1": {
+  "props": {
+      "src": "assets/images/menu-categoria/menu_rebajas_mujer.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image",
+      "link":{
+          "url":"https://www.oggi.mx/371?map=productClusterIds"
+      }
+  }
+},
+"image#placeholderjhr2": {
+  "props": {
+      "src": "assets/images/menu-categoria/menu_rebajas_hombre.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image",
+      "link":{
+          "url":"https://www.oggi.mx/370?map=productClusterIds"
+      }
+  }
+},
+  "flex-layout.row#category-rebajas": {
+    "children": [
+      "flex-layout.col#category-rebajas"
+    ]
+  },
+
+  "flex-layout.col#category-rebajas": {
+    "children": [
+      "flex-layout.row#rowcategory-rebajas"]
+  },
+
+  "flex-layout.row#rowcategory-rebajas": {
+    "children":[
+      "vtex.menu@2.x:menu#category-rebajas-genero"
+    ],
+    "props":{"blockClass": "submenu-categoria-nav"}
+  },
+
+
+  "vtex.menu@2.x:menu#category-rebajas-genero": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+
+      "rich-text#categorias",
+      "menu-item#category-rebajas-hombre",
+      "menu-item#category-rebajas-mujer"
+    ]
+  },
+  "menu-item#category-rebajas-hombre": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "categoryId": 3,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Hombre",
+        "href": "/370?map=productClusterIds"
+      }
+    }
+  },
+  "menu-item#category-rebajas-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Mujer",
+        "href": "/371?map=productClusterIds"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "menu-item#category-nuevo": {
+        "props": {
+          "id": "menu-item-category-nuevo",
+          "type": "category",
+          "categoryId":3,
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "CategoryItem",
+            "text": "Lo Nuevo"
+          }
+        }
+      }
+}

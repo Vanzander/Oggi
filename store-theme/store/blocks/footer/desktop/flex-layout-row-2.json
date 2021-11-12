@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "rich-text#link-terminos-y-condiciones",
+      "rich-text#link-aviso-de-privacidad"
+    ],
+    "props": {
+      "horizontalAlign":"center",
+      "blockClass": "legal"
+    }
+  },
+  "rich-text#link-terminos-y-condiciones":{
+    "props": {
+      "blockClass" : "terminos-uli",
+      "tagTitle": "Términos y Condiciones",
+      "text": "[Términos y Condiciones](/terminos-y-condiciones)"
+      }
+  }
+}
+

@@ -1,0 +1,31 @@
+{
+    "vtex.menu@2.x:menu#category-menu": {
+        "props": {
+            "experimentalOptimizeRendering": true
+        },
+        "children": [
+            "menu-item#category-jeans",
+            "menu-item#category-mujer",
+            "menu-item#category-hombre",
+            "menu-item#category-lo_nuevo",
+            "menu-item#category-colecciones",
+            "search-bar"
+
+        ]
+    },
+    "rich-text#fit": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**Fit**"
+
+        }
+    },
+    "rich-text#categorias": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**Categorías**"
+        }
+    }
+}

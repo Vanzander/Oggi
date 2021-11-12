@@ -1,0 +1,16 @@
+{
+    "menu-item#category-rebajas": {
+        "props": {
+          "id": "menu-item-category-rebajas",
+          "type": "category",
+          "categoryId":3,
+          "iconId": null,
+          "highlight": true,
+          "blockClass":"rebajassssssssssss",
+          "itemProps": {
+            "type": "CategoryItem",
+            "text": "Rebajas"
+          }
+        }
+      }
+}

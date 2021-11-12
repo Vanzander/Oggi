@@ -1,0 +1,33 @@
+{
+  "disclosure-layout#pregunta1": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#pregunta1", "disclosure-content#pregunta1"]
+  },
+  "disclosure-trigger#pregunta1": {
+    "props": {
+      "blockClass": "pregunta",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta1"]
+  },
+  "disclosure-content#pregunta1": {
+    "props": {
+      "blockClass": "respuesta"
+    },
+    "children": ["rich-text#respuesta1"]
+  },
+  "rich-text#pregunta1": {
+    "props": {
+      "text": "¿Qué significa Venta en Línea?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta1": {
+    "props": {
+      "blockClass": "respuesta-space",
+      "text": "**R:** Es la versión virtual de Oggi donde contamos con secciones donde podrás encontrar una exclusiva selección de modelos para Mujer, Hombre y Niños."
+    }
+  }
+}

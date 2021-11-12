@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#5-desktop": {
+    "children": [
+        "rich-text#hotsale-header"
+    ],
+    "props": {
+      "blockClass": "hotsale-header",
+      "textAlign":"center",
+      "preventHorizontalStretch":true
+    }
+  },
+  "rich-text#hotsale-header": {
+    "props": {
+      "text": "[10% ADICIONAL USANDO EL CUPÓN hs2021 , VER MÁS.](/promociones/hotsale)",
+      "blockClass": "header-space-hotsale"
+    }
+  },
+  "image#logohotsale-header": {
+    "props": {
+      "src": "https://oggimexico.vteximg.com.br/arquivos/logo-hotsale.png",
+      "maxHeight": "50px",
+      "blockClass": "spacebar-hotsale",
+      "link":{
+        "url":"/promociones/hotsale"
+      },
+      "marginTop": 2
+    }
+  }
+}

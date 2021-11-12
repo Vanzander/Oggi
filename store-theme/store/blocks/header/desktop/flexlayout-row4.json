@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#4-desktop": {
+    "children": [
+        "rich-text#descarga-app-header",
+        "image#imgio-header",
+        "image#imggoogle-header"
+    ],
+    "props": {
+      "blockClass": "descarga-app-header",
+      "textAlign":"center",
+      "preventHorizontalStretch":true
+    }
+  },
+  "rich-text#descarga-app-header": {
+    "props": {
+      "text": "DESCARGA NUESTRA APP: ",
+      "blockClass": "header-space-descarga"
+    }
+  },
+  "image#imgio-header": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/descargaios.png",
+      "maxHeight": "30px",
+      "blockClass": "spacebar",
+      "link":{
+        "url":"https://apps.apple.com/mx/app/oggi-jeans/id1542958324",
+        "openNewTab":"true"
+      },
+      "marginTop": 10
+    }
+  },
+  "image#imggoogle-header": {
+    "props": {
+      "src": "https://oggimexicoqa.vteximg.com.br/arquivos/descargagoogle.png",
+      "maxHeight": "30px",
+      "blockClass": "spacebar",
+      "link":{
+        "url":"https://play.google.com/store/apps/details?id=com.lluraferi.oggijeans",
+        "openNewTab":"true"
+      },
+      "marginTop": 10
+    }
+  }
+}

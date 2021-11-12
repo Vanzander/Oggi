@@ -1,0 +1,21 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "sticky-layout#3-desktop",
+      "flex-layout.row#4-desktop"
+    ]
+  },
+  "sticky-layout#3-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#3-desktop"]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }
+}

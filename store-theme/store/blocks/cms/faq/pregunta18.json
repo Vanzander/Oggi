@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta18": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta18", "disclosure-content#pregunta18"]
+  },
+  "disclosure-trigger#pregunta18": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta18"]
+  },
+  "disclosure-content#pregunta18": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta18"]
+  },
+  "rich-text#pregunta18": {
+    "props": { 
+      "text": "¿Puedo comprar desde otro país para regalar a alguien que viva en México?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta18": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Por supuesto, puedes hacer todas tus compras en línea desde cualquier parte del mundo, la entrega de la mercancía puede enviarse a cualquier parte de la República Mexicana (única y exclusivamente)." }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "menu-item#category-hombre-fit": {
+    "props": {
+      "id": "menu-item-category-hombre-fit",
+      "type": "category",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Fit"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-hombre-fit"]
+  },
+  "vtex.menu@2.x:submenu#category-hombre-fit": {
+    "props": {
+    //  "width": "100%",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": ["flex-layout.row#category-hombre-fit"]
+  },
+  "flex-layout.row#category-hombre-fit": {
+    "children": [
+      "vtex.menu@2.x:menu#category-hombre"
+    ]
+  },
+
+  
+
+   
+
+  "menu-item#category-hombre-fit-straight": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Straight",
+        "href": "/hombre/jeans/straight?initialMap=c,c&initialQuery=hombre/jeans&map=category-1,category-2,fit"
+      }
+    }
+  },
+
+  "menu-item#category-hombre-fit-slim": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Slim",
+        "href": "/hombre/jeans/slim?initialMap=c,c&initialQuery=hombre/jeans&map=category-1,category-2,fit"
+      }
+    }
+  },
+
+  "menu-item#category-hombre-fit-skinny": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Skinny",
+        "href": "/hombre/jeans/skinny?initialMap=c,c&initialQuery=hombre/jeans&map=category-1,category-2,fit"
+      }
+    }
+  },
+  "menu-item#category-hombre-fit-regular": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Regular",
+        "href": "/hombre/regular?initialMap=c&initialQuery=hombre&map=category-1,fit"
+      }
+    }
+  },
+  "menu-item#category-hombre-fit-slim-straight": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Slim Straight",
+        "href": "/hombre/jeans/slim-straight?initialMap=c,c&initialQuery=hombre/jeans&map=category-1,category-2,fit"
+      }
+    }
+  },
+//  "menu-item#category-hombre-fit-straight-button-fly": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Straight Button Fly",
+//        "href": "/hombre/jeans/slim-straght?initialMap=c,c&initialQuery=hombre/jeans&map=category-1,category-2,fit"
+//      }
+//    }
+//  },
+  "menu-item#category-hombre-fit-super-skinny": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Súper Skinny",
+        "href": "/hombre/jeans/super-skinny?initialMap=c,c&initialQuery=hombre/jeans&map=category-1,category-2,fit"
+      }
+    }
+  },
+//  "menu-item#category-hombre-fit-skinny-regular": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Skinny Regular",
+//        "href": "/157?map=productClusterIds"
+//      }
+//    }
+//  },
+  "menu-item#category-hombre-fit-boot-cut": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Boot cut",
+        "href": "/hombre/jeans/boot-cut?initialMap=c,c&initialQuery=hombre/jeans&map=category-1,category-2,fit"
+      }
+    }
+  }
+//  "menu-item#category-hombre-fit-relaxed": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Relaxed",
+//        "href": "/hombre/jeans/relaxed?initialMap=c,c&initialQuery=hombre/jeans&map=category-1,category-2,fit"
+//      }
+//    }
+//  },
+//  "menu-item#category-hombre-fit-jogger": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Jogger",
+//        "href": "/160?map=productClusterIds"
+//      }
+//    }
+//  },
+//  "menu-item#category-hombre-fit-tappered": {
+//    "props": {
+//      "blockClass": "desktop-header-submenu-item",
+//      "type": "custom",
+//      "iconId": null,
+//      "highlight": false,
+//      "itemProps": {
+//        "type": "internal",
+//        "text": "Tapered",
+//        "href": "/hombre/jeans/tapared?initialMap=c,c&initialQuery=hombre/jeans&map=category-1,category-2,fit"
+//      }
+//    }
+//  }
+}
+

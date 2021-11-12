@@ -1,0 +1,33 @@
+{
+  "disclosure-layout#pregunta2": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#pregunta2", "disclosure-content#pregunta2"]
+  },
+  "disclosure-trigger#pregunta2": {
+    "props": {
+      "blockClass": "pregunta",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta2"]
+  },
+  "disclosure-content#pregunta2": {
+    "props": {
+      "blockClass": "respuesta"
+    },
+    "children": ["rich-text#respuesta2"]
+  },
+  "rich-text#pregunta2": {
+    "props": {
+      "text": "¿Por qué es importante registrarme en Oggi.mx?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta2": {
+    "props": {
+      "blockClass": "respuesta-space",
+      "text": "**R:** Porque encontrarás la mejor colección de ropa Oggi, a un solo clic y desde la comodidad de tu casa, oficina o móvil. Registrarte en Oggi.mx es gratis y fácil, sólo entra a \"Mi cuenta\", registra tus datos y navega por todos los productos que tenemos para ti."
+    }
+  }
+}

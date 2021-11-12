@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta11": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta11", "disclosure-content#pregunta11"]
+  },
+  "disclosure-trigger#pregunta11": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta11"]
+  },
+  "disclosure-content#pregunta11": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta11"]
+  },
+  "rich-text#pregunta11": {
+    "props": { 
+      "text": "¿Qué costo tiene el envío de mi pedido?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta11": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Todas nuestras entregas tienen un costo homologado por zonas, el cual, se cobrará de acuerdo a lo siguiente:\n\n| SERVICIO   |  COBERTURA |  COMPROMISO DE ENTREGA | KILOS QUE AMPARA  |\r\n| ------------ | ------------ | ------------ | ------------ |\r\n|  * Terrestre |  Cobertura Nacional | De 2 a 7 d\u00EDas h\u00E1biles. Este tiempo corre a partir de que el cliente haya recibido su confirmaci\u00F3n de pedido y que el pago se haya registrado en nuestro sistema. El horario es abierto de 9:00 a 18:00 de lunes a viernes.  |  2.00 Kg. por gu\u00EDa |\r\n\r\n- Servicio de recolecci\u00F3n y entrega de paquetes\r\n- Gu\u00EDa por paquete\r\n- Peso m\u00E1ximo 70 Kg. por paquete\r\n- El excedente al peso especificado por gu\u00EDa (2 Kg.) se tomar\u00E1 como sobrepeso.\r\n\r\n|  SERVICIO POR GU\u00CDA |  PESO REAL O VOLUM\u00C9TRICO | \u00C1REA METROPOLITANA|  RESTO DE LA REP\u00DABLICA |\r\n| ------------ | ------------ | ------------ | ------------ |\r\n| * Terrestre  | 2.00 Kg. por gu\u00EDa  | $128.00 *  | $168.00 *  |\r\n\r\n|  SOBREPESO |  KG. ADICIONAL | \u00C1REA METROPOLITANA|  RESTO DE LA REP\u00DABLICA |\r\n| ------------ | ------------ | ------------ | ------------ |\r\n|   | 1.00 Kg.  | $10.44 *  |  $10.44 * |\r\n\r\n*IVA incluido.\r\n\r\nTe recomendamos consultar las Condiciones de entrega." }
+  }
+}

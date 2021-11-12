@@ -1,0 +1,279 @@
+{
+  "menu-item#category-hombre": {
+    "props": {
+      "id": "menu-item-category-hombre",
+      "type": "category",
+      "categoryId": 3,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Hombre"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-hombre"]
+  },
+  "vtex.menu@2.x:submenu#category-hombre": {
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": ["flex-layout.row#category-hombre"]
+  },
+  "flex-layout.row#category-hombre": {
+    "children": [
+      "flex-layout.col#category-hombre",
+      "flex-layout.col#category-hombre-image"
+    ]
+  },
+  "flex-layout.col#category-hombre": {
+    "children": [
+        "flex-layout.row#rowcategory-hombre", 
+        "vtex.menu@2.x:menu#category-hombre-categorias"
+    ]
+  },
+
+
+  "flex-layout.row#rowcategory-hombre": {
+    "children":["vtex.menu@2.x:menu#category-hombre"],
+    "props":{"blockClass": "submenu-categoria-nav"}
+  },
+  "flex-layout.row#rowcategory-hombre2": {
+    "children":["vtex.menu@2.x:menu#category-hombre-categorias"],
+    "props":{"blockClass": "submenu-categoria-nav"}
+  },
+
+
+
+
+  "flex-layout.col#category-hombre-image": {
+    "children": ["flex-layout.col#category-hombre-image1","flex-layout.col#category-hombre-image2"],
+    "props":{"blockClass": "submenu_banner"}
+  },
+  "flex-layout.col#category-hombre-image1": {
+    "children": ["image#placeholderh1"],
+    "props":{"blockClass": "submenu_banner_image"}
+  },
+  "flex-layout.col#category-hombre-image2": {
+    "children": ["image#placeholderh2"],
+    "props":{"blockClass": "submenu_banner_image"}
+  },
+
+
+  "image#placeholderh1": {
+    "props": {
+      "src": "assets/images/menu-categoria/hombre_hombre.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image",
+      "link":{
+            "url":"https://www.oggi.mx/hombre"
+        }
+    }
+  },
+
+  "image#placeholderh2": {
+    "props": {
+      "src": "assets/images/menu-categoria/hombre_mujer.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image",
+      "link":{
+            "url":"https://www.oggi.mx/mujer"
+        }
+    }
+  },
+
+
+  "info-card#placeholder": {
+    "props": {
+      "id": "info-card-placeholder",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "src": "assets/images/menu-categoria/hombre_hombre.jpg",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "vtex.menu@2.x:menu#category-hombre": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+      "rich-text#fit",
+      "menu-item#category-hombre-fit-straight",
+      "menu-item#category-hombre-fit-slim",
+      "menu-item#category-hombre-fit-skinny",
+      "menu-item#category-hombre-fit-regular",
+      "menu-item#category-hombre-fit-slim-straight",
+      "menu-item#category-hombre-fit-super-skinny",
+      "menu-item#category-hombre-fit-boot-cut"
+   
+    ]
+  },
+
+
+  "vtex.menu@2.x:menu#category-hombre-categorias": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+     
+      "rich-text#categorias",
+      "menu-item#category-jeans-hombre2",
+      "menu-item#category-pantalones-hombre",
+      "menu-item#category-playeras-hombre",
+      "menu-item#category-camisas-hombre",
+      "menu-item#category-chamarras-hombre",
+      "menu-item#category-calzado-hombre",
+      "menu-item#category-bermudas-hombre"
+    ]
+  },
+
+  "menu-item#category-accesorios-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 32,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#category-basicos-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 36,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Básicos"
+      }
+    }
+  },
+  "menu-item#category-bermudas-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 21,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Bermudas"
+      }
+    }
+  },
+  "menu-item#category-calzado-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 18,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Calzado"
+      }
+    }
+  },
+  "menu-item#category-camisas-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 12,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Camisas"
+      }
+    }
+  },
+  "menu-item#category-chamarras-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 15,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Chamarras"
+      }
+    }
+  },
+  "menu-item#category-jeans-hombre2": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 504,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Jeans"
+      }
+    }
+  },
+  "menu-item#category-pantalones-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 9,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Pantalones"
+      }
+    }
+  },
+  "menu-item#category-playeras-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 6,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Playeras"
+      }
+    }
+  },
+  "menu-item#category-underwear-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 29,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Underwear"
+      }
+    }
+  }
+}

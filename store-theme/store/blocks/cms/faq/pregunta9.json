@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta9": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta9", "disclosure-content#pregunta9"]
+  },
+  "disclosure-trigger#pregunta9": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta9"]
+  },
+  "disclosure-content#pregunta9": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta9"]
+  },
+  "rich-text#pregunta9": {
+    "props": { 
+      "text": "¿Es seguro comprar por Internet?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta9": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** PayPal y Pay U ayudan a proteger la información de tu tarjeta de crédito/debito con sistemas de seguridad y prevención de fraudes de los más avanzados en el mercado.\n\nPago en efectivo en tienda de conveniencia es una herramienta útil y segura que garantiza a través de un número de referencia la operación." }
+  }
+}

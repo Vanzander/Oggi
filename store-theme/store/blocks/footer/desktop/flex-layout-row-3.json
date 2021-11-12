@@ -1,0 +1,49 @@
+{
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "flex-layout.col#footer-row3-col1",
+      "flex-layout.col#footer-row3-col2"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.col#footer-row3-col1": {
+    "props": {
+      "width": "60%",
+      "blockClass": "pagos"
+      
+    },
+    "children": ["flex-layout.row#footer-row3-col1"]
+  },
+  "flex-layout.row#footer-row3-col1": {
+    "children": ["image#visa", "image#mastercard", "image#kueski", "image#oxxo", "image#paypal", "image#mercadopago"]
+  },
+  "flex-layout.col#footer-row3-col2": {
+    "props": {
+      "width": "30%",
+      "blockClass": "certificaciones"
+    },
+    "children": ["flex-layout.row#footer-row3-col2"]
+  },
+  "flex-layout.row#footer-row3-col2": {
+    "children": [
+        "image#norton", 
+        "image#pago-seguro",
+        "image#geodis"
+    ],"props": {
+        "blockClass": "images-certificaciones"
+    }
+  },
+  "flex-layout.col#footer-row3-col3": {
+    "props": {
+      "width": "20%",
+      "blockClass": "sellos"
+    },
+    "children": ["flex-layout.row#footer-row3-col3"]
+  },
+  "flex-layout.row#footer-row3-col3": {
+    "children": [ 
+      "image#geodis"]
+  }
+}

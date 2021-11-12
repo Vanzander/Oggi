@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta10": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta10", "disclosure-content#pregunta10"]
+  },
+  "disclosure-trigger#pregunta10": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta10"]
+  },
+  "disclosure-content#pregunta10": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta10"]
+  },
+  "rich-text#pregunta10": {
+    "props": { 
+      "text": "¿Cómo sé que mi pedido fue aprobado?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta10": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Una vez que hayas realizado tu compra obtendrás un número de pedido. Deberás de esperar a que te llegue un email de confirmación a tu correo asignado. En caso de que el correo de confirmación no haya llegado, te aconsejamos revisar tu bandeja de correo no deseado. Una vez confirmado el pedido se enviará a la dirección de envío proporcionado en el tiempo estipulado en la política de envío vigente. Revisa aquí las condiciones de envío. Si no ha llegado el correo de confirmación y/o tienes alguna duda sobre tu compra, contáctanos en nuestro correo ventaenlinea@oggi.mx o en Atención a Cliente 01 55 41 70 00 78 que opera de lunes a viernes de 8:00 a 18:00." }
+  }
+}

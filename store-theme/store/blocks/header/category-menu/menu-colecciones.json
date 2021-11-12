@@ -1,0 +1,145 @@
+{
+  "rich-text#rebajas": {
+    "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**[REBAJAS](/360?map=productClusterIds)**",
+        "blockClass": "link-coleccion"
+
+      }
+    },
+    "rich-text#outlet": {
+      "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**[OUTLET](/363?map=productClusterIds)**",
+          "blockClass": "link-coleccion"
+      }
+    },
+
+  "menu-item#category-colecciones": {
+        "props": {
+            "id": "menu-item-category-colecciones",
+            "type": "custom",
+            "categoryId": 3,
+            "iconId": null,
+            "highlight": false,
+
+            "itemProps": {
+                "type": "internal",
+                "text": "Promociones",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "promociones"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#category-colecciones"]
+    },
+    "vtex.menu@2.x:submenu#category-colecciones": {
+        "props": {
+            "width": "100%",
+            "blockClass": "desktop-header-submenu-coleccion"
+        },
+        "children": ["flex-layout.row#category-colecciones"]
+    },
+    "flex-layout.row#category-colecciones": {
+        "children": ["flex-layout.col#category-colecciones"]
+    },
+    "flex-layout.col#category-colecciones": {
+        "children": ["flex-layout.row#lonuevo"]
+    },
+
+    "flex-layout.row#lonuevo": {
+      "children": [
+        "vtex.menu@2.x:menu#category-colecciones-rebajas",
+        "vtex.menu@2.x:menu#category-colecciones-outlet"
+      ]
+
+  },
+
+  "vtex.menu@2.x:menu#category-colecciones-rebajas": {
+    "props": {
+        "orientation": "vertical",
+        "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+      "rich-text#rebajas",
+      "menu-item#category-colecciones-rebajas-h",
+      "menu-item#category-colecciones-rebajas-m"
+
+    ]
+  },
+
+  "menu-item#category-colecciones-rebajas-h": {
+      "props": {
+          "id": "menu-item-category-colecciones-rebajas-h",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "text": "Hombre",
+              "href": "/370?map=productClusterIds"
+
+          }
+      }
+  },
+
+  "menu-item#category-colecciones-rebajas-m": {
+    "props": {
+        "id": "menu-item-category-colecciones-rebajas-h",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "text": "Mujer",
+            "href": "/371?map=productClusterIds"
+
+        }
+    }
+  },
+  "vtex.menu@2.x:menu#category-colecciones-outlet": {
+    "props": {
+        "orientation": "vertical",
+        "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+      "rich-text#outlet",
+      "menu-item#category-colecciones-outlet-h",
+      "menu-item#category-colecciones-outlet-m"
+
+    ]
+  },
+
+  "menu-item#category-colecciones-outlet-h": {
+      "props": {
+          "id": "menu-item-category-colecciones-outlet-h",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "text": "Hombre",
+              "href": "/372?map=productClusterIds"
+
+          }
+      }
+  },
+
+  "menu-item#category-colecciones-outlet-m": {
+    "props": {
+        "id": "menu-item-category-colecciones-outlet-h",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "text": "Mujer",
+            "href": "/373?map=productClusterIds"
+
+        }
+    }
+  }
+
+}

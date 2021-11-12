@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta21": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta21", "disclosure-content#pregunta21"]
+  },
+  "disclosure-trigger#pregunta21": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta21"]
+  },
+  "disclosure-content#pregunta21": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta21"]
+  },
+  "rich-text#pregunta21": {
+    "props": { 
+      "text": "¿Motivos por los cuales se hace válida una devolución de producto?",
+      "blockClass": "pregunta-space" 
+    }
+  },
+  "rich-text#respuesta21": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** a) Que el producto tenga algún defecto de fabricación, como caída de broches, botones y/o remaches, cierre descompuesto, cambio de coloración. IMPORTANTE. Previo a cada envío, Oggi revisará el producto y lo comunicará al Usuario por medio de una etiqueta adherible de Control de Calidad dentro del paquete. * Cada una de las prendas cuenta con indicaciones de cuidado en la etiqueta interior.\n\nb) Que se haya dañado durante el envío. IMPORTANTE. El Usuario deberá cerciorarse al momento de recibir su mercancía que el empaque no presente huellas de alteración o roturas.\n\nc) Que el producto haya sido extraviado durante el envío. En dicho caso el Usuario podrá solicitar que se reponga el producto extraviado o el reembolso del dinero pagado." }
+  }
+}

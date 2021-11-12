@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta16": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta16", "disclosure-content#pregunta16"]
+  },
+  "disclosure-trigger#pregunta16": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta16"]
+  },
+  "disclosure-content#pregunta16": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta16"]
+  },
+  "rich-text#pregunta16": {
+    "props": { 
+      "text": "¿Tienes alguna duda sobre tu paquete?",
+      "blockClass": "pregunta-space" 
+    }
+  },
+  "rich-text#respuesta16": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Tú mismo puedes rastrear tu paquete en el portal de Estafeta con tu número de guía o contáctanos en nuestro correo ventaenlinea@oggi.mx o en Atención a Cliente 01 55 41 70 00 78 que opera de lunes a viernes de 8:00 a 18:00." }
+  }
+}

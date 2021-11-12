@@ -1,0 +1,72 @@
+{
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile"
+    ]
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#shorts"
+    ]
+  },
+
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+
+  "menu-item#shorts": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  }
+}

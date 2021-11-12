@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta14": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta14", "disclosure-content#pregunta14"]
+  },
+  "disclosure-trigger#pregunta14": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta14"]
+  },
+  "disclosure-content#pregunta14": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta14"]
+  },
+  "rich-text#pregunta14": {
+    "props": { 
+      "text": "¿Cómo puedo cambiar un artículo comprado en Oggi.mx?",
+      "blockClass": "pregunta-space" 
+    }
+  },
+  "rich-text#respuesta14": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Consulta aquí las políticas de cambios y devoluciones." }
+  }
+}

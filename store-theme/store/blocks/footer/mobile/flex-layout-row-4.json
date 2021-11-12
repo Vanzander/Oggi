@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#footer-4-mobile": {
+    "children": [
+        "flex-layout.row#firma-space-mobile",
+        "flex-layout.row#legales-space-mobile"
+    ],
+    "props": {
+      "blockClass": "credits",
+      "preventHorizontalStretch":true
+    }
+  }
+}

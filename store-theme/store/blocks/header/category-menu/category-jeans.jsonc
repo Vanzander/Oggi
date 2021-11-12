@@ -1,0 +1,190 @@
+{
+  "rich-text#jeans-hombre-rt": {
+    "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**[Hombre](/hombre/jeans)**",
+        "blockClass": "link-coleccion"
+
+    }
+  },
+  "rich-text#jeans-mujer-rt": {
+      "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "**[Mujer](/mujer/jeans)**",
+          "blockClass": "link-coleccion"
+      }
+  },
+
+
+
+
+
+  "menu-item#category-jeans": {
+    "props": {
+      "id": "menu-item-category-jeans",
+      "type": "custom",
+      "categoryId": 2,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Jeans",
+        "href":"/jeans"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-jeans"]
+  },
+
+  "vtex.menu@2.x:submenu#category-jeans": {
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": ["flex-layout.row#category-jeans"]
+  },
+  "flex-layout.row#category-jeans": {
+    "children": [
+      "flex-layout.col#category-jeans",
+      "flex-layout.col#category-jeans-image"
+    ]
+  },
+
+ "flex-layout.col#category-jeans-image": {
+    "children": [
+        "flex-layout.col#category-jeans-image2",
+        "flex-layout.col#category-jeans-image1"
+    ],
+    "props": {
+        "blockClass": "submenu_banner"
+    }
+},
+"flex-layout.col#category-jeans-image1": {
+    "children": [
+        "image#placeholderjh1"
+    ],
+    "props": {
+        "blockClass": "submenu_banner_image"
+    }
+},
+"flex-layout.col#category-jeans-image2": {
+    "children": [
+        "image#placeholderjh2"
+    ],
+    "props": {
+        "blockClass": "submenu_banner_image"
+    }
+},
+
+"image#placeholderjh1": {
+    "props": {
+        "src": "assets/images/menu-categoria/jeans_mujer.jpg",
+        "maxHeight": "",
+        "maxWidth": "",
+        "blockClass": "menu-image",
+        "link":{
+            "url":"https://www.oggi.mx/mujer"
+        }
+    }
+},
+"image#placeholderjh2": {
+    "props": {
+        "src": "assets/images/menu-categoria/jeans_hombre.jpg",
+        "maxHeight": "",
+        "maxWidth": "",
+        "blockClass": "menu-image",
+        "link":{
+            "url":"https://www.oggi.mx/hombre"
+        }
+    }
+},
+
+  
+  "flex-layout.col#category-jeans": {
+
+    "children": ["flex-layout.col#rowcategory-jeans-h","flex-layout.col#rowcategory-jeans-m"]
+  },
+
+  "flex-layout.col#rowcategory-jeans-h": {
+    "children":["vtex.menu@2.x:menu#category-jeans-genero-h"],
+    "props":{"blockClass": "submenu-categoria-nav"}
+  },
+  "flex-layout.col#rowcategory-jeans-m": {
+    "children":["vtex.menu@2.x:menu#category-jeans-genero-m"],
+
+    "props":{"blockClass": "submenu-categoria-nav"}
+  },
+  
+
+  "vtex.menu@2.x:menu#category-jeans-genero-h": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+
+      "rich-text#jeans-hombre-rt",
+      "menu-item#category-hombre-fit-straight",
+      "menu-item#category-hombre-fit-slim",
+      "menu-item#category-hombre-fit-skinny",
+//      "menu-item#category-hombre-fit-regular",
+      "menu-item#category-hombre-fit-slim-straight",
+//      "menu-item#category-hombre-fit-straight-button-fly",
+      "menu-item#category-hombre-fit-super-skinny",
+//      "menu-item#category-hombre-fit-skinny-regular",
+      "menu-item#category-hombre-fit-boot-cut"
+//      "menu-item#category-hombre-fit-relaxed",
+//      "menu-item#category-hombre-fit-jogger",
+//      "menu-item#category-hombre-fit-tappered"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-jeans-genero-m": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+
+      "rich-text#jeans-mujer-rt",
+      "menu-item#category-mujer-fit-straight-cintura-alta",
+      "menu-item#category-mujer-fit-skinny-cintura-media",
+      "menu-item#category-mujer-fit-super-skinny-cintura-alta",
+//      "menu-item#category-mujer-fit-skinny-cintura-alta",
+//      "menu-item#category-mujer-fit-super-skinny-cintura-super-alta",
+      "menu-item#category-mujer-fit-noot-cut-cintura-alta",
+      //"menu-item#category-mujer-fit-super-slim-cintura-media",
+      "menu-item#category-mujer-fit-slim-cintura-media"//,
+//      "menu-item#category-mujer-fit-relaxed-cintura-media",
+//      "menu-item#category-mujer-fit-super-skinny-cintura-baja",
+//      "menu-item#category-mujer-fit-slim-cintura-alta"
+    ]
+  }
+  /*
+  "menu-item#category-jeans-hombre": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 504,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Hombre"
+      }
+    }
+  },
+  "menu-item#category-jeans-mujer": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Mujer"
+      }
+    }
+  } */
+}

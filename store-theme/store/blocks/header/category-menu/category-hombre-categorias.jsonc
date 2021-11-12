@@ -1,0 +1,150 @@
+{
+  "menu-item#category-hombre-categorias": {
+    "props": {
+      "id": "menu-item-category-hombre-categorias",
+      "type": "category",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Categorias"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-hombre-categorias"]
+  },
+  "vtex.menu@2.x:submenu#category-hombre-categorias": {
+    "props": {
+    //  "width": "100%",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": ["flex-layout.row#category-hombre-categorias"]
+  },
+  "flex-layout.row#category-hombre-categorias": {
+    "children": [
+      "vtex.menu@2.x:menu#category-hombre-categorias"
+    ]
+  },
+
+ 
+
+
+  "menu-item#category-hombre-categorias-jeans": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Jeans"
+      }
+    }
+  },
+  "menu-item#category-hombre-categorias-pantalones": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Pantalones"
+      }
+    }
+  },
+  "menu-item#category-hombre-categorias-playeras": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Playeras"
+      }
+    }
+  },
+  "menu-item#category-hombre-categorias-camisas": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Camisas"
+      }
+    }
+  },
+  "menu-item#category-hombre-categorias-chamarras": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Chamarras"
+      }
+    }
+  },
+  "menu-item#category-hombre-categorias-calzado": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Calzado"
+      }
+    }
+  },
+  "menu-item#category-hombre-categorias-bermudas": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Bermudas"
+      }
+    }
+  },
+  "menu-item#category-hombre-categorias-accesorios": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#category-hombre-categorias-underwear": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Underwear"
+      }
+    }
+  }
+}
+

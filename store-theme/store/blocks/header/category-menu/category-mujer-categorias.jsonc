@@ -1,0 +1,266 @@
+{
+  "menu-item#category-mujer-categorias": {
+    "props": {
+      "id": "menu-item-category-mujer-categorias",
+      "type": "category",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Categorias"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-mujer-categorias"]
+  },
+  "vtex.menu@2.x:submenu#category-mujer-categorias": {
+    "props": {
+    //  "width": "100%",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": ["flex-layout.row#category-mujer-categorias"]
+  },
+  "flex-layout.row#category-mujer-categorias": {
+    "children": [
+      "vtex.menu@2.x:menu#category-mujer-categorias"
+    ]
+  },
+
+  
+  "vtex.menu@2.x:menu#category-mujer-categorias": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop-header-submenu"
+    },
+    "children": [
+      "menu-item#category-mujer-categorias-jeans",
+      "menu-item#category-mujer-categorias-pantalones",
+      "menu-item#category-mujer-categorias-tops",
+      "menu-item#category-mujer-categorias-blusas",
+      "menu-item#category-mujer-categorias-chamarras",
+      "menu-item#category-mujer-categorias-shorts",
+      "menu-item#category-mujer-categorias-nickers",
+      "menu-item#category-mujer-categorias-overol",
+      "menu-item#category-mujer-categorias-vestidos",
+      "menu-item#category-mujer-categorias-faldas",
+      "menu-item#category-mujer-categorias-accesorios",
+      "menu-item#category-mujer-categorias-underwear",
+      "menu-item#category-mujer-categorias-leggin",
+      "menu-item#category-mujer-categorias-jegging",
+      "menu-item#category-mujer-categorias-bodysuit",
+      "menu-item#category-mujer-categorias-calzado"
+
+    ]
+  },
+
+
+  "menu-item#category-mujer-categorias-jeans": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Jeans"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-pantalones": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Pantalones"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-tops": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Tops"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-blusas": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Blusas"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-chamarras": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Chamarras"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-shorts": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Shorts"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-nickers": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Nickers"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-overol": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Overol"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-vestidos": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Vestidos"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-faldas": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Faldas"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-accesorios": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-underwear": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Underwear"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-leggin": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Leggin"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-jegging": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Jegging"
+      }
+    }
+  },  
+  "menu-item#category-mujer-categorias-bodysuit": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Bodysuit"
+      }
+    }
+  },
+  "menu-item#category-mujer-categorias-calzado": {
+    "props": {
+      "blockClass": "desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Calzado"
+      }
+    }
+  }
+}
+

@@ -1,0 +1,188 @@
+{
+    "store.custom#kueskipay": {
+        "blocks": [
+            "flex-layout.row#cont-global-kueskipay"
+        ]
+    },
+    "flex-layout.row#cont-global-kueskipay": {
+        "children": [
+            "flex-layout.col#cont-global-kueskipay"
+        ]
+    },
+    "flex-layout.col#cont-global-kueskipay" : {
+        "children" : [
+            "flex-layout.row#kueskipay-1",
+            "flex-layout.row#kueskipay-2",
+            "flex-layout.row#kueskipay-banner",
+            "flex-layout.row#kueskipay-3",
+            "flex-layout.row#kueskipay-banner-aprobacion"      
+        ],
+        "props": {
+            "blockClass": "cont_global_kueskipay"
+        }
+    },
+    "flex-layout.row#kueskipay-1": {
+        "children": [
+            "flex-layout.col#text-kueskypay"
+        ]
+    },
+    "flex-layout.row#kueskipay-2": {
+        "children": [
+            "flex-layout.col#kp-left-2",
+            "flex-layout.col#kp-right-2"
+        ],
+        "props": {
+            "blockClass": "Kp_kueskipay_2"
+        }
+    },
+    "flex-layout.row#kueskipay-banner": {
+        "children": [
+            "flex-layout.col#kp-banner"
+        ],
+        "props": {
+            "blockClass": "kp_banner"
+        }
+    },
+    "flex-layout.row#kueskipay-3": {
+        "children": [
+            "flex-layout.col#kp-left-3",
+            "flex-layout.col#kp-right-3"
+        ],
+        "props": {
+            "blockClass": "column_three"
+        }
+    },
+    // Primer bloque 
+    "flex-layout.col#text-kueskypay": {
+        "children": [
+            "image#logo-kueskypay",
+            "rich-text#title-kueskypay",
+            "rich-text#paragraph-kueskypay"
+        ],
+        "props": {
+            "blockClass": "Kp_kueskipay_1"
+        }
+    },
+    "image#logo-kueskypay": {
+        "props": {
+            "src": "assets/images/cms/kueskipay/logo-kueski.png",
+            "blockClass": "image_logo_kp"
+        }
+    },
+    "image#logo-kp-photo-1": {
+        "props": {
+            "src": "assets/images/cms/kueskipay/imagen-oggi-kueski-01.jpg",
+            "blockClass": "image_logo_kp"
+        }
+    },
+    "image#logo-kp-photo-2": {
+        "props": {
+            "src": "assets/images/cms/kueskipay/imagen-oggi-kueski-02.jpg",
+            "blockClass": "image_logo_kp"
+        }
+    },
+    "rich-text#title-kueskypay": {
+        "props": {
+            "text": "# ¡Compra ahora, paga después!",
+            "blockClass": "h1_kp"
+        }
+    },
+    "rich-text#paragraph-kueskypay": {
+        "props": {
+            "text": "### Kueski Pay te permite hacer tus compras, a crédito sin tarjeta.",
+            "blockClass": "h3_kp"
+        }
+    },
+    "rich-text#promo-intereses": {
+        "props": {
+            "text": "## 0% DE INTERÉS Y HASTA 4 QUINCENAS",
+            "blockClass": "banner_intereses"
+        }
+    },
+    "rich-text#banner-aprobacion": {
+        "props": {
+            "text": "## Sujeto a aprobación de crédito",
+            "blockClass": "banner_aprobacion"
+        }
+    },
+    // END Primer bloque
+    
+    // //////////// Segundo bloque
+    "flex-layout.col#kp-left-2" : {
+        "children" : [
+            "image#logo-kp-photo-1"
+        ],
+        "props": {         
+            "blockClass": "kp_left_2"
+        }
+    },
+    "flex-layout.col#kp-right-2" : {
+        "children" : [
+            "rich-text#h2kp-right-kueskypay",
+            "rich-text#h3kp-right-kueskypay",
+            "rich-text#pkp-right-kueskypay"
+        ],
+        "props": {
+            "blockClass": "kp_right_2"
+        }
+    },
+    "rich-text#h2kp-right-kueskypay" : {
+        "props": {
+            "text": "## ¡Paga hasta en 4 quincenas!"
+        }
+    },
+    "rich-text#h3kp-right-kueskypay" : {
+        "props": {
+            "text": "### Siéntete libre de comprar hoy y elegir cuándo pagar sin tarjeta"
+        }
+    },
+    "rich-text#pkp-right-kueskypay" : {
+        "props": {
+            "text": "Kueski Pay es la solución para tus compras en línea. Es una forma de pago 100% segura que podrás encontrar en nuestros comercios afiliados. \n\nAhora puedes comprar en línea sin tarjeta de crédito tus productos favoritos, con un plazo e interés personalizados.  \n [Más información](https://kueskipay.com/?target=_blank)"
+        }
+    },
+    // //////////// END Segundo bloque
+    
+    // //////////// Banner 0% interes 
+    "flex-layout.col#kp-banner": {
+        "children": [
+            "rich-text#promo-intereses"
+        ],
+        "props": {
+            "blockClass": "kp_promo_intereses"
+        }
+    },
+    // //////////// END Banner 0% interes 
+    
+    // //////////////////////// Tercer bloque
+    "flex-layout.col#kp-left-3": {
+        "children": [
+            "rich-text#pasos"
+        ],
+        "props": {
+            "blockClass": "kp_left_3"
+        }
+    },
+    "flex-layout.col#kp-right-3": {
+        "children": [
+            "image#logo-kp-photo-2"
+        ],
+        "props": {
+            "blockClass": "kp_right_3"
+        }
+    },
+    "rich-text#pasos": {
+        "props": {
+            "text": "### PASO 1 \n Agrega tus productos a tu carrito de compras \n ### PASO 2 \n Selecciona Kueski Pay como forma de pago \n ### PASO 3 \n Completa el formulario y elige el plazo a pagar \n ### PASO 4 \n ¡Listo, prepárate para recibir tu compra! \n [Descubre como](https://kueskipay.com/preguntas-frecuentes/?target=_blank)"
+        }
+    },
+    // //////////////////////// END Tercer bloque
+    
+    // //////////// Banner Aprobación
+    "flex-layout.row#kueskipay-banner-aprobacion": {
+        "children": [
+            "rich-text#banner-aprobacion"
+        ]
+    }
+    // //////////// END Banner Aprobación
+}

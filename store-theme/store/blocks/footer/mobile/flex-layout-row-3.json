@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#footer-3-mobile": {
+    "children": [
+      "flex-layout.col#footer-row3-col1",
+      "flex-layout.col#footer-row3-col2"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta12": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta12", "disclosure-content#pregunta12"]
+  },
+  "disclosure-trigger#pregunta12": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta12"]
+  },
+  "disclosure-content#pregunta12": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta12"]
+  },
+  "rich-text#pregunta12": {
+    "props": { 
+      "text": "¿Cuál es el plazo de entrega de mi pedido?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta12": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Actualmente los tiempos de entrega son de 5 a 10 días hábiles. Este tiempo corre a partir de que el cliente haya recibido su confirmación de pedido y que el pago se haya registrado en nuestro sistema." }
+  }
+}

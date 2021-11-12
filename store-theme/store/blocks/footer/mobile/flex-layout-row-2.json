@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#footer-2-mobile": {
+    "children": [
+        "rich-text#link-terminos-y-condiciones",
+        "rich-text#link-aviso-de-privacidad"
+    ],
+    "props": {
+      "horizontalAlign":"center",
+      "blockClass": "legal"
+    }
+  }
+}
+

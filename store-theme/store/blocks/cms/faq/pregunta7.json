@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta7": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta7", "disclosure-content#pregunta7"]
+  },
+  "disclosure-trigger#pregunta7": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta7"]
+  },
+  "disclosure-content#pregunta7": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta7"]
+  },
+  "rich-text#pregunta7": {
+    "props": { 
+      "text": "¿Qué debo hacer para realizar una compra?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta7": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** **Si eres usuario de primera vez:**\r\n- Seleccionar los productos y agregarlos al carrito.\r\n- Ingresa a \"INICIAR SESI\u00D3N\" y crea una cuenta con tus datos de contacto.\r\n- Registra tu direcci\u00F3n, donde quieres que te llegue el producto. En este punto, es muy importante que ingreses los datos completos y el C\u00F3digo Postal correcto de tu zona.\r\n- Seleccionar la forma de pago: Credito, Debito o Efectivo.\r\n- Se mostrar\u00E1n los datos de la compra para revisi\u00F3n final.\r\n- \u00A1Y listo! Ya has hecho tu primera compra en Oggi.mx\r\n\r\n**Si eres un usuario registrado:**\r\n- Ingresa a Oggi.mx con tu correo electr\u00F3nico y la contrase\u00F1a que has elegido.\r\n- Introduce al carrito todos los art\u00EDculos que desees.\r\n- Revisa tu direcci\u00F3n de env\u00EDo.\r\n- Selecciona la forma de pago.\r\n- Se mostrar\u00E1n los datos de la compra para revisi\u00F3n final.\r\n- \u00A1Y listo!" }
+  }
+}

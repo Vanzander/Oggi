@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta17": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta17", "disclosure-content#pregunta17"]
+  },
+  "disclosure-trigger#pregunta17": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta17"]
+  },
+  "disclosure-content#pregunta17": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta17"]
+  },
+  "rich-text#pregunta17": {
+    "props": { 
+      "text": "¿Puedo realizar compras cualquier día y a cualquier hora?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta17": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Venta en Línea Oggi está disponible las 24 horas del día, para que puedas realizar tus pedidos. La confirmación de tu compra se llevará a cabo en el horario de 8:00 a 18:00 de lunes a viernes. En caso de que tu compra la realices en fin de semana, la confirmación de tu compra se hará el lunes próximo y si realizas tu pedido en día festivo la confirmación se hará al día hábil siguiente. Es importante consultar y estar atento a tu confirmación de compra para saber cuándo empezará a ser procesado el envío de tu paquete. Además tendrás la opción de consultar el estatus de tu envío en cualquier momento." }
+  }
+}

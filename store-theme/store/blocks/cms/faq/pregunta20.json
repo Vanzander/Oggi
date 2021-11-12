@@ -1,0 +1,25 @@
+{
+  "disclosure-layout#pregunta20": {
+    "props": { "animated": true },
+    "children": ["disclosure-trigger#pregunta20", "disclosure-content#pregunta20"]
+  },
+  "disclosure-trigger#pregunta20": {
+    "props": { "blockClass": "pregunta", "as": "div" },
+    "children": ["disclosure-state-indicator", "rich-text#pregunta20"]
+  },
+  "disclosure-content#pregunta20": {
+    "props": { "blockClass": "respuesta" },
+    "children": ["rich-text#respuesta20"]
+  },
+  "rich-text#pregunta20": {
+    "props": { 
+      "text": "¿Motivos por los cuales se hace válido un cambio de producto?",
+      "blockClass": "pregunta-space"
+    }
+  },
+  "rich-text#respuesta20": {
+    "props": { 
+      "blockClass": "respuesta-space",
+      "text": "**R:** Que el producto no haya sido de la talla, del modelo o del color que el Usuario adquirió." }
+  }
+}

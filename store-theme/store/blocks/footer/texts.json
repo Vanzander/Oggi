@@ -1,0 +1,71 @@
+{
+  "flex-layout.row#firma-space-mobile": {
+      "children" : [
+          "flex-layout.col#firma-footer-mobile-3",        
+          "flex-layout.col#firma-footer-mobile-2"
+      ],
+    "props": {
+      "blockClass": "fimra-mobile-2"      
+    }
+  },
+  "flex-layout.col#firma-footer-mobile-2": {
+      "children" : [
+          "image#spacebar"
+        ],
+        "props": {
+            "blockClass": "legales-mobile-2",
+            "width": "50%"
+        }
+    },
+    "flex-layout.col#firma-footer-mobile-3": {
+        "children" : [
+          "rich-text#desarrollado-por"
+      ],
+    "props": {
+      "blockClass": "legales-mobile-3",
+      "width": "50%"
+    }
+  },
+  "flex-layout.row#legales-space-mobile": {
+      "children" : [
+        "rich-text#all-rights-reserved",
+        "rich-text#footer-whatsapp"
+      ],
+    "props": {
+      "text": "Desarrollado por:",
+      "blockClass": "legales-mobile-2"
+    }
+  },
+  "rich-text#desarrollado-por": {
+    "props": {
+      "text": "Desarrollado por:",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#link-terminos-y-condiciones": {
+    "props": {
+      "text": "[Términos y Condiciones](/terminos-y-condiciones)",
+      "textAlign":"right",
+      "blockClass": "legal"
+    }
+  },
+  "rich-text#link-aviso-de-privacidad": {
+    "props": {
+      "text": "[Aviso de Privacidad](/aviso-de-privacidad)",
+      "textAlign":"center",
+      "blockClass": "legal"
+    }
+  },
+  "rich-text#all-rights-reserved": {
+    "props": {
+      "text": "OGGI Jeans. Todos los derechos reservados (c) 2020.",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#footer-whatsapp": {
+    "props": {
+      "text": "[WA](https://api.whatsapp.com/send?phone=525581059603/?target=_blank)",
+      "blockClass": "col-whatsapp-footer"
+    }
+  }
+}

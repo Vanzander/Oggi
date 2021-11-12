@@ -1,0 +1,80 @@
+{
+  "flex-layout.row#footer-1-mobile": {
+    "children": [
+      "flex-layout.col#footer-newsletter",      
+      "flex-layout.col#footer-menu-mobile",
+      "flex-layout.col#footer-contact-mobile"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#footer-menu-mobile": {
+    "props": {},
+    "children": ["disclosure-layout#footer-menu"]
+  },
+  "disclosure-layout#footer-menu": {
+    "children": [
+      "disclosure-trigger#footer-menu",
+      "disclosure-content#footer-menu"
+    ]
+  },
+  "disclosure-trigger#footer-menu": {
+    "children": [
+      "rich-text#footer-menu-trigger"
+    ],
+    "props": {
+      "blockClass": "footer-trigger",
+      "as": "div"
+    }
+  },
+  "disclosure-content#footer-menu": {
+    "children": ["vtex.menu@2.x:menu#footer-menu"],
+    "props": {
+      "blockClass": "footer-trigger"
+    }
+  },
+  "rich-text#footer-menu-trigger": {
+    "props": {
+      "text": "Más información",
+      "blockClass": "footer-trigger"
+    }
+  },
+
+  "flex-layout.col#footer-contact-mobile": {
+    "props": {
+      "blockClass": "tik-spo",
+        "width": "34%"
+    },
+    "children": [
+        "social-networks",
+        "image#imgspotify",
+        "image#imgtiktok"
+    ]
+  },
+  "image#imgtiktok": {
+    "props": {
+      "src": "assets/images/icon_set/logo_tiktok.svg",
+      "maxHeight": "30px",
+      "blockClass": "spacebar-tiktok",
+      "link":{
+        "url":"https://vm.tiktok.com/ZMdfQ14oL/",
+        "openNewTab":"true"
+      },
+      "marginTop": 10
+    }
+  },
+  "image#imgspotify": {
+    "props": {
+      "src": "assets/images/icon_set/logo_spotify.svg",
+      "blockClass": "spacebar-spofity",
+      "link":{
+        "url":"https://open.spotify.com/user/02dy27bjr3e0t9cxreaw4ks5p?si=0ZpAh7XhRkawtIYuEhVB7w&dl_branch=1/",
+        "openNewTab":"true"
+      },
+      "marginTop": 10
+    }
+  }
+}

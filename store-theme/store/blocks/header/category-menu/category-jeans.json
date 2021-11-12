@@ -1,0 +1,86 @@
+{
+  "menu-item#category-jeans": {
+    "props": {
+      "id": "menu-item-category-jeans",
+      "type": "custom",
+      "categoryId": 2,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "text": "Jeans",
+        "href":"/jeans"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-jeans"]
+  },
+  "vtex.menu@2.x:submenu#category-jeans": {
+    "props": {
+      "width": "100%",
+      "blockClass":"desktop-header-submenu"
+    },
+    "children": ["flex-layout.row#category-jeans"]
+  },
+  "flex-layout.row#category-jeans": {
+    "children": [
+      "flex-layout.col#category-jeans",
+      "flex-layout.col#category-jeans-image"
+    ]
+  },
+  "flex-layout.col#category-jeans": {
+    "children": [
+      "vtex.menu@2.x:menu#category-jeans"
+    ]
+  },
+  "flex-layout.col#category-jeans-image": {
+    "children": [
+      "image#placeholder"
+    ]
+  },
+  "image#placeholder": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "menu-image"
+    }
+  },
+  "vtex.menu@2.x:menu#category-jeans": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"desktop-header-submenu"
+    },
+    "children": [
+      "menu-item#category-jeans-hombre",
+      "menu-item#category-jeans-mujer"
+    ]
+  },
+  "menu-item#category-jeans-hombre": {
+    "props": {
+      "id": "menu-item-category-jeans-hombre",
+      "blockClass":"desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 504,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Hombre"
+      }
+    }
+  },
+  "menu-item#category-jeans-mujer": {
+    "props": {
+      "id": "menu-item-category-apparel-jeans-mujer",
+      "blockClass":"desktop-header-submenu-item",
+      "type": "category",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "CategoryItem",
+        "text": "Mujer"
+      }
+    }
+  }
+}

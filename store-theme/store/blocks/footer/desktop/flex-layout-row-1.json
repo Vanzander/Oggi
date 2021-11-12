@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-newsletter",
+      "flex-layout.col#footer-menu",
+      "flex-layout.col#footer-contact"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#footer-newsletter": {
+    "props": {
+        "width": "45%",
+        "blockClass": "footer-newsletter-space"
+    },
+    "children": [
+        "newsletter#footer"
+    ]
+  },
+  "flex-layout.col#footer-menu": {
+    "props": {
+      "blockClass": "footer-menu-space",
+      "width": "35%"
+
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu"
+    ]
+  },
+  "flex-layout.col#footer-contact": {
+    "props": {
+      "blockClass": "tik-spo",
+        "width": "20%"
+    },
+    "children": [
+      "social-networks",
+      "image#imgspotify",
+      "image#imgtiktok"
+     
+    ]
+  },
+  "image#imgtiktok": {
+    "props": {
+      "src": "assets/images/icon_set/logo_tiktok.svg",
+      "maxHeight": "30px",
+      "blockClass": "spacebar-tiktok",
+      "link":{
+        "url":"https://vm.tiktok.com/ZMdfQ14oL/",
+        "openNewTab":"true"
+      },
+      "marginTop": 10
+    }
+  },
+  "image#imgspotify": {
+    "props": {
+      "src": "assets/images/icon_set/logo_spotify.svg",
+      "blockClass": "spacebar-spofity",
+      "link":{
+        "url":"https://open.spotify.com/user/02dy27bjr3e0t9cxreaw4ks5p?si=0ZpAh7XhRkawtIYuEhVB7w&dl_branch=1/",
+        "openNewTab":"true"
+      },
+      "marginTop": 10
+    }
+  }
+}
