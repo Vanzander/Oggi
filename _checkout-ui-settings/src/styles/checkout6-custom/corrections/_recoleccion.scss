@@ -1,0 +1,28 @@
+.vtex-pickup-points-modal-3-x-modalTitle {
+  font-size: 0;
+  &::before {
+    font-size: 16px;
+    content: 'Elija un punto de recolección';
+  }
+}
+
+h2.vtex-pickup-points-modal-3-x-searchAloneTitle {
+  font-size: 0!important;
+  &::before {
+    font-size: 28px;
+    content: 'Buscar puntos de recolección';
+  }
+}
+
+.srp-content.onda-v1{
+  .srp-items{
+    font-size: 0;
+    //strong{
+    //  font-size: 0;
+    //  &::before{
+    //    font-size: 1rem;
+    //    content:'Recolectar'
+    //  }
+    //}
+  }
+}

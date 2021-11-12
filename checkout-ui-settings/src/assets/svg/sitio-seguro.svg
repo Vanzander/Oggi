@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 69.646104 87.644899"
+   xml:space="preserve"
+   sodipodi:docname="sitio-seguro.svg"
+   width="69.646103"
+   height="87.644897"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   id="metadata1509"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs1507" /><sodipodi:namedview
+   inkscape:zoom="5.8574453"
+   inkscape:cx="0.94611225"
+   inkscape:cy="24.4837"
+   inkscape:window-width="1920"
+   inkscape:window-height="1025"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Grupo_363"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   id="namedview1505"
+   showgrid="false" />
+<style
+   type="text/css"
+   id="style1346">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#002D5D;}
+	.st3{fill:#003DA6;}
+	.st4{fill:none;stroke:#333333;stroke-width:5.1461;stroke-linecap:round;stroke-linejoin:round;}
+	.st5{fill:none;stroke:#333333;stroke-width:5.1437;stroke-linecap:round;stroke-linejoin:round;}
+	.st6{fill:#333333;}
+</style>
+
+
+<g
+   id="Grupo_363"
+   transform="translate(-360.32694,-56.52815)">
+	<rect
+   id="Rectángulo_211"
+   x="362.89999"
+   y="93.199997"
+   class="st4"
+   width="64.5"
+   height="48.400002"
+   style="stroke:#f5f5f5;stroke-opacity:1" />
+	<path
+   id="Trazado_931"
+   class="st5"
+   d="m 378.9,84.1 c 0,0 -4.6,-25 16.8,-25 21.4,0 17.5,25 17.5,25"
+   style="fill:none;fill-opacity:1;stroke:#f5f5f5;stroke-opacity:1" />
+	<path
+   id="Trazado_932"
+   class="st6"
+   d="m 385.3,121.5 6.5,6.7 v 0 0 l 6.5,-6.7 v 0 l 13.6,-13.9 -6.5,-6.7 -13.6,13.9 -6.8,-7 -6.5,6.7 z"
+   style="fill:#f5f5f5;fill-opacity:1" />
+</g>
+</svg>

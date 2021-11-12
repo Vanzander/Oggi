@@ -1,0 +1,84 @@
+@import './elements/header', './elements/footer', './elements/cart', './elements/profile', './elements/shipping',
+  './elements/payment', './elements/custom-content', './elements/cart-summary';
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Nunito', 'helvetica neue', 'helvetica', 'sans-serif' !important;
+  color: #000 !important;
+  @media (max-width: 979px) {
+    &.body-cart {
+      padding-bottom: 0;
+    }
+  }
+  @media all and (max-width:767px) {
+      .container.container-main {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+          box-sizing: border-box;
+          h1,
+          h2 {
+                padding-left: 10px;
+          }
+      }
+      .step-indicator {
+          font-size: 10px;
+      }
+    }
+  }
+.bank-invoice-icon.bank-invoice-seveneleven,
+.bank-invoice-icon.bank-invoice-oxxo,
+.bank-invoice-icon.bank-invoice-otherscashmx {
+    background-position: 50% 50%;
+    background-size: auto 60px;
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+.bank-invoice-icon.bank-invoice-otherscashmx {
+    background-image: url('/arquivos/pago_offline_farmacias.png');
+}
+.bank-invoice-icon.bank-invoice-oxxo {
+    background-image: url('/arquivos/pago_offline_oxxo.png');
+}
+.bank-invoice-icon.bank-invoice-seveneleven {
+    background-image: url('/arquivos/pago_offline_seven.png');
+}
+.accordion-group {
+  border: none;
+  padding: 0 !important;
+  .accordion-heading {
+    padding: 8px;
+    background-color: #eee;
+    .accordion-toggle {
+      &.accordion-toggle-active {
+        font-size: 16px;
+        font-weight: 700;
+      }
+      line-height: unset;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    i.icon-user,
+    i.icon-home {
+      display: none;
+    }
+    a.link-box-edit {
+      position: static;
+      i.icon-edit {
+        color: #14315c;
+        font-size: 1.25rem;
+      }
+    }
+  }
+  .accordion-inner {
+    border: 1px solid #adadad;
+    border-top: none;
+  }
+}
+
+.orderform-template.inactive {
+  //display: none;
+}

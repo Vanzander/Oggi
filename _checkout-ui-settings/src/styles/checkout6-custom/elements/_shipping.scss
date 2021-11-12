@@ -1,0 +1,15 @@
+#shipping-data {
+  .accordion-group.shipping-data {
+    .accordion-inner {
+      background: #fff;
+    }
+
+    .box-step {
+      &.shipping-summary-placeholder {
+        a.link-change-shipping {
+          display: none;
+        }
+      }
+    }
+  }
+}

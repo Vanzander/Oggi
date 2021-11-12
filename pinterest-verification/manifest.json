@@ -1,0 +1,23 @@
+{
+  "name": "pinterest-verification",
+  "vendor": "oggimexico",
+  "version": "0.0.1",
+  "title": "Pinterest Verification",
+  "description": "Pinterest Verification by Space.Bar",
+  "builders": {
+    "pixel": "0.x",
+    "docs": "0.x"
+  },
+  "settingsSchema": {
+    "title": "pinterest-verification",
+    "type": "object",
+    "properties": {
+      "content": {
+        "title": "Content Value",
+        "description": "Pinterest Content Value for Verification by Space.Bar",
+        "type": "string"
+      }
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

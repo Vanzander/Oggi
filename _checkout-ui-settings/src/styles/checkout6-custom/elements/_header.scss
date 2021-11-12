@@ -1,0 +1,36 @@
+.checkout.header {
+  @media (max-width: 768px) {
+    padding: 12px 24px !important;
+  }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    padding: 12px 100px !important;
+  }
+  @media (min-width: 1200px) {
+    padding: 12px 240px !important;
+  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #333333;
+  color: #fff;
+
+  .logo {
+    text-align: center;
+    img {
+      max-height: 100%;
+      max-width: 60px;
+    }
+    p {
+      color: #fff;
+    }
+  }
+  .other {
+    svg {
+      width: 24px;
+      height: auto;
+    }
+    span{
+      margin-left: 20px;
+    }
+  }
+}

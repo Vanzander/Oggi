@@ -1,0 +1,115 @@
+.checkout.header {
+  @media (max-width: 768px) {
+    padding: 12px 24px !important;
+  }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    padding: 12px 100px !important;
+  }
+  @media (min-width: 1200px) {
+    padding: 12px 240px !important;
+  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #333333;
+  color: #fff;
+
+  .logo {
+    text-align: center;
+    img {
+      max-height: 100%;
+      max-width: 60px;
+    }
+    p {
+      color: #fff;
+    }
+  }
+  .other {
+    svg {
+      width: 24px;
+      height: auto;
+    }
+    span{
+      margin-left: 20px;
+    }
+  }
+}
+.checkout.header {
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    margin:auto;
+    padding:0 !important;
+}
+._cont_logo {
+    display:flex;
+    width:100%;
+    flex-direction: column;
+}
+    .logo,
+    .other,
+    ._cont_buennfin {
+        width:100%;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        max-width:1200px;
+        padding: 10px 10px 5px 10px;
+        margin:auto;
+        box-sizing:border-box;
+        a {
+            display: flex;
+        }
+    }
+    .other {
+        text-align:right;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+._cont_buennfin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E82D00;
+    padding: 5px 0;
+    color: #ffffff;
+    p {
+        color:#ffffff;
+        font-size:16px;
+    }
+    img {
+        max-width:50px;
+        height:auto;
+        margin-left:10px;
+    }
+}
+@media all and (max-width: 767px) {
+    ._cont_buennfin {
+        p {
+            font-size:12px;
+        }
+        img {
+            max-height:40px;
+        }
+    }
+    .checkout.header .logo img {
+        max-width:40px;
+        max-height: 36px;
+        height:auto;
+        margin-left:10px;
+    }
+    .rompe-space {
+        color: #fff;
+    font-size: 10px;
+    margin-left:5px;
+    }
+    .logo {
+        a {
+            align-items:center;
+        }
+    }
+}

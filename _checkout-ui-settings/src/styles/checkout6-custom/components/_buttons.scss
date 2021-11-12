@@ -1,0 +1,21 @@
+.btn {
+  box-shadow: none;
+  background: #eeeeee;
+  border: none;
+  color: #000;
+  font-size: medium;
+  border-radius: 2px;
+  padding: 6px 16px;
+  text-transform: uppercase;
+  &.btn-large {
+    border-radius: 25px;
+  }
+  &.btn-success {
+    background: #00BF80;
+    color: #fff;
+    border-radius: 25px;
+  }
+  &.btn-primary {
+    border-radius: 25px;
+  }
+}

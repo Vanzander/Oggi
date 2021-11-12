@@ -1,0 +1,58 @@
+.modal-main {
+
+  border-radius: 16px;
+  .modal-header {
+    position: relative;
+    h2 {
+      margin: 16px 24px;
+    }
+    button {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      appearance: none;
+      font-size: 0;
+      border: none;
+      background: none;
+      &::before {
+        font-size: 20px;
+        content: '×';
+        color: #333;
+        text-shadow: 0px 1px 7px #333;
+      }
+    }
+  }
+  #datos-facturacion-container {
+    padding: 24px;
+    form {
+      display: flex;
+      flex-direction: column;
+      .fields {
+        overflow: auto;
+        max-height: 400px;
+      }
+      input,
+      select {
+        display: block;
+        margin: 6px;
+        width: auto;
+      }
+    }
+
+    .buttons-container {
+      margin-top: 24px;
+      padding-top: 12px;
+      border-top: 1px solid #ddd;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}

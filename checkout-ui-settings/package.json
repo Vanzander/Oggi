@@ -1,0 +1,44 @@
+{
+  "name": "checkout-ui-settings",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://station.space.bar/vtex/oggi_io",
+  "author": "SpaceBar",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch --mode=development",
+    "build": "webpack --mode=production --config ./webpack.config.js",
+    "build:dev": "webpack --mode=development --config",
+    "dev:link": "yarn dev & vtex link"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.9",
+    "classnames": "^2.2.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.13.9",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@svgr/webpack": "^5.4.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "loader": "^2.1.1",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^4.0.4",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.2.0"
+  }
+}

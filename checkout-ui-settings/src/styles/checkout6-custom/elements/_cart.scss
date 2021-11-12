@@ -1,0 +1,132 @@
+.container-main.container-cart {
+  @media (max-width: 768px) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    h1#cart-title {
+      display: none!important;
+    }
+  }
+  //min-height: 85vh;
+  .step,
+  .cart,
+  .totalizers {
+    border: none;
+  }
+  .cart {
+    .table.cart-items {
+      thead {
+        background: #eeeeee;
+        border: 1px solid #eeeeee;
+        border-radius: 4px 4px 0px 0px;
+        tr {
+          th {
+            color: #000;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .srp-content.onda-v1 {
+    a {
+      color: #14315c !important;
+    }
+    .srp-main-title {
+      font-size: 1.25rem;
+      color: #000;
+    }
+    .srp-description {
+    }
+    .srp-data {
+      #shipping-calculate-link {
+        background: #eeeeee 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        padding: 24px;
+      }
+    }
+    .srp-toggle__wrapper {
+      .srp-toggle__current {
+        border-color: #14315c;
+      }
+      .srp-toggle__delivery,
+      .srp-toggle__pickup {
+        color: #14315c;
+      }
+    }
+
+    .srp-delivery-header {
+      #deliver-at-text {
+        &::before {
+          content: 'CP ';
+        }
+      }
+    }
+    .srp-postal-code__form {
+      .ship-postalCode {
+        width: unset;
+        input#ship-postalCode {
+          display: block;
+        }
+      }
+      #cart-shipping-calculate {
+        background: #eee;
+        border: none;
+        color: #000;
+        font-size: medium;
+        border-radius: 2px;
+        padding: 6px 16px;
+        text-transform: uppercase;
+      }
+    }
+    .srp-icon-radio-selected {
+      path {
+        fill: #14315c;
+      }
+    }
+  }
+  .coupon.summary-coupon {
+    text-decoration: underline;
+  }
+  .cart-links.cart-links-bottom {
+    display: block!important;
+    @media (max-width:768px){
+      display: flex!important;
+      flex-direction: row;
+
+    }
+    .link-choose-more-products-wrapper {
+      margin: 16px;
+      a#cart-choose-more-products {
+        box-shadow: none;
+        //background: #eee;
+        border: none;
+        color: #14315C;
+        font-size: medium;
+        font-weight: bold;
+        border-radius: 2px;
+        padding: 6px 16px;
+        text-transform: uppercase;
+        &:hover{
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .btn-place-order-wrapper{
+
+    }
+  }
+  .totalizers.summary-totalizers.cart-totalizers{
+    .accordion-group{
+      .accordion-heading{
+
+      }
+      .accordion-body{
+        .accordion-inner{
+          border:none;
+        }
+      }
+    }
+  }
+
+}

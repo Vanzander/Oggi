@@ -1,0 +1,11 @@
+#client-profile-data {
+  .box-client-info-pj {
+    display: none;
+  }
+
+  .accordion-group {
+    &.client-profile-data {
+
+    }
+  }
+}
