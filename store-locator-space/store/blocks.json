@@ -1,0 +1,159 @@
+{
+  "store.storelocator": {
+    "blocks": [
+      "image#landing-store",
+      "image#landing-mobile-store",
+      "flex-layout.row#title",
+      "flex-layout.row#container"
+    ]
+  },
+  "image#landing-store": {
+    "props": {
+      "isFullModeStyle": false,
+      "src": "https://oggimexico.vtexassets.com/arquivos/tiendas-desk-ok.jpg",
+      "blockClass": "store-image-desk"
+    }
+  },
+  "image#landing-mobile-store": {
+    "props": {
+      "src": "https://oggimexico.vtexassets.com/arquivos/tiendas-mobile.jpg",
+      "blockClass": "store-image-mobile"
+    }
+  },
+  "flex-layout.row#store-components-info-tiendas": {
+    "children": [
+        "info-card#tiendas"
+    ],
+    "props": {
+        "blockClass": "cms-localizacion"
+    }
+},
+"info-card#tiendas": {
+    "props": {
+        "imageUrl": "https://oggimexico.vtexassets.com/arquivos/tiendas-desk-ok.jpg",
+        "mobileImageUrl":"https://oggimexico.vtexassets.com/arquivos/tiendas-mobile.jpg",
+        "isFullModeStyle": true,
+        "headline": "",
+        "textPosition": "right",
+        "blockClass": "cms-banner-tiendas",
+        "fullWidth" : false
+    }
+  },
+
+  "flex-layout.row#title": {
+    "children": ["flex-layout.col#title"]
+  },
+  "flex-layout.row#container": {
+    "children": [
+      "store-list"
+    ],
+    "props" : {
+        "blockClass" : "cont_store_locator"
+    }
+  },
+  "store-list":{
+    "props": {
+      "icon": "https://oggimexico.vtexassets.com/arquivos/_pin-mapa_principal.png"
+    }
+  },
+  "flex-layout.col#title": {
+    "children": ["rich-text#title"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "## Punto Oggi",
+      "blockClass": "titulo_store_space"
+    }
+  },
+  "store.storedetail": {
+    "blocks": [
+      "image#landing-store",
+      "image#landing-mobile-store",
+      "flex-layout.row#titleStore",
+      "store-group"
+    ]
+  },
+
+  "store-group": {
+    "children": [
+      "flex-layout.row#containerStore"
+    ],
+    "props": {
+      "title": "{storeName} Store"
+    }
+  },
+  "flex-layout.row#titleStore": {
+    "children": [
+      "flex-layout.col#titleStore"
+    ]
+  },
+  "flex-layout.row#containerStore": {
+    "children": [
+      "flex-layout.col#detail",
+      "flex-layout.col#store"
+    ]
+  },
+
+  "flex-layout.col#titleStore": {
+    "children": [
+      "rich-text#titleStore"
+    ],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#titleStore": {
+    "props": {
+      "text": "## Detalle de Tienda",
+      "blockClass": "titulo_store_space"
+    }
+  },
+  "flex-layout.col#detail": {
+    "children": [
+      "store-back-link",
+      "store-name",
+      "store-address",
+      "store-instructions",
+      "store-hours"
+
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "info_detalle_space",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#store": {
+    "children": [
+      "store-map"
+    ],
+    "props": {
+      "width": "70%",
+      "blockClass": "map_detalle_space"
+    }
+  },
+  "store-hours": {
+    "props": {
+      "label": "Horarios de servicio:",
+      "format": "12h",
+      "blockClass": "horas_space"
+    }
+  },
+  "store-back-link": {
+    "props": {
+      "label": "Volver a todas las tiendas",
+      "blockClass": "btn_space"
+    }
+  },
+  "store-instructions": {
+    "props": {
+      "label": "Teléfono(s):",
+      "blockClass": "tel_space"
+    }
+  }
+}
