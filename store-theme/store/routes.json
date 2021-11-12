@@ -1,0 +1,80 @@
+{
+  "store.custom#quienes-somos": {
+    "path": "/quienes-somos"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#cambios-y-devoluciones":{
+    "path":"/cambios-y-devoluciones"
+  },
+  "store.custom#tiendas-oggi":{
+    "path":"/tiendas"
+  },
+  "store.custom#aviso-de-privacidad":{
+    "path":"/aviso-de-privacidad"
+  },
+  "store.custom#terminos-y-condiciones":{
+    "path":"/terminos-y-condiciones"
+  },
+  "store.custom#contacto":{
+    "path":"/contacto"
+  },
+  "store.custom#kueskipay":{
+    "path":"/kueskipay"
+  },
+  "store.custom#vacaciones":{
+    "path":"/vacaciones"
+  },
+  "store.custom#vacacionesmujer":{
+    "path":"/vacaciones_m"
+  },
+  "store.custom#vacacioneshombre":{
+    "path":"/vacaciones_h"
+  },
+  "store.custom#rebajas":{
+    "path":"/rebajas"
+  },
+  "store.custom#rebajasmujer":{
+    "path":"/rebajas_m"
+  },
+  "store.custom#rebajashombre":{
+    "path":"/rebajas_h"
+  },
+  "store.custom#solicita-tu-factura": {
+    "path": "/solicita-tu-factura"
+  },
+  "store.custom#dia-de-las-madres": {
+    "path": "/promociones/dia_de_las_madres"
+  },
+  "store.custom#hotsale-esperalo": {
+    "path": "/hotsale-esperalo"
+  },
+  "store.custom#hotsale": {
+    "path": "/promociones/hotsale"
+  },
+  "store.custom#hotsalemujer": {
+    "path": "/promociones/hotsale_m"
+  },
+  "store.custom#hotsalehombre": {
+    "path": "/promociones/hotsale_h"
+  },
+  "store.custom#dia-del-padre": {
+    "path": "/promociones/dia_del_padre"
+  },
+  "store.custom#covertops": {
+    "path": "/promociones/covertops"
+  },
+  "store.custom#pride": {
+    "path": "/promociones/pride"
+  },
+  "store.custom#backtoschool": {
+    "path": "/promociones/back-to-school"
+  },
+  "store.custom#backtoschoolhombre": {
+    "path": "/promociones/back-to-school_h"
+  },
+  "store.custom#backtoschoolmujer": {
+    "path": "/promociones/back-to-school_m"
+  }
+}
